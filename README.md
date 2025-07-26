@@ -79,14 +79,16 @@ Improve by analyzing your development decisions—what worked, what didn’t, an
 - [ ] Actionable suggestions for future iterations  
 - [ ] Reflection connects directly to build outcomes  
 - [ ] Structured writing with clear sections and professional tone
+- [ ] Demonstrates strategic use of AI for generating code aligned with project objectives.
 
 ---
 
 ## 🎯 Bonus Tips
 
-- Use badges for build status, license, and contributors  
-- Consider GitHub Actions for auto-linting and deployment  
-- Add issue templates or pull request guidelines if collaborators are expected  
-- Include a live demo link near the top for quick preview
+- [ ] Use badges for build status, license, and contributors  
+- [ ] Consider GitHub Actions for auto-linting and deployment  
+- [ ] Add issue templates or pull request guidelines if collaborators are expected  
+- [ ] Include a live demo link near the top for quick preview
+- [ ] Brief reflection in README.md on key decisions where AI was used to generate code, focusing on the outcomes rather than detailed prompts or manual interventions.
 
 ---
