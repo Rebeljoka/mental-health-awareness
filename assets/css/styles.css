@@ -1,10 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Poiret+One&display=swap');
+
+/*  Color Palette
+#0d0b33
+#4c2f6f
+#52489f
+#c266a7
+#e7c8e7
+*/
+
 /* CSS Variables */
 :root {
-    --primary-color: #4a90e2;
+    --primary-color: #4c2f6f;
     --secondary-color: #f5f5f5;
     --text-color: #333;
-    --primary-font: 'Arial', sans-serif;
-    --secondary-font: 'Courier New', monospace;
+    --primary-font: 'Oooh Baby', cursive;
+    --secondary-font: 'Poiret One', cursive;
 }
 
 /* Global Styles */
