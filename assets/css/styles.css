@@ -7,7 +7,6 @@
 #c266a7
 #e7c8e7
 */
-
 /* CSS Variables */
 :root {
     --primary-color: #4c2f6f;
@@ -19,8 +18,9 @@
 
 /* Global Styles */
 body {
-    font-family: var(--primary-font);
-    padding-top: 57.15px; /* Adjusted for fixed navbar height */
+    font-family: var(--secondary-font);
+    padding-top: 57.85px;
+    /* Adjusted for fixed navbar height */
 }
 
 /* Navigation Bar */
@@ -28,6 +28,110 @@ body {
     background-color: var(--primary-color);
 }
 
-.navbar .logo {
+.navbar>.logo {
     width: 30px;
+}
+
+#hero {
+    background-color: #dbdcde;
+    background: url('/assets/images/hero-image.webp');
+    background-size: cover;
+    background-position: 50% 70%;
+    min-height: 500px;
+    padding: 3% 0;
+}
+
+#hero .row {
+    align-items: center;
+    min-height: 500px;
+}
+
+#hero h1,
+#hero h2 {
+    color: white;
+}
+
+#hero p {
+    color: white;
+    font-family: var(--secondary-font);
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+}
+
+.playtext {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#mental-health-section {
+    background-color: #e7c8e7;
+}
+
+#FaqAccordion1 .accordion-button {
+    background-color: #c266a7;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+#FaqAccordion1 .accordion-button::after {
+    background-image: none;
+}
+
+#FaqAccordion1 .accordion-button:not(.collapsed) {
+    background-color: transparent;
+    border-bottom: 0;
+    box-shadow: none;
+}
+
+/* Center accordion button text */
+#FaqAccordion1 .accordion-button {
+    justify-content: center;
+    text-align: center;
+}
+
+#FaqAccordion1 .accordion-button p {
+    margin: 0;
+    width: 100%;
+}
+
+/* Center accordion body text */
+#FaqAccordion1 .accordion-body {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+/* Fade-in Animation */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in-1 {
+    opacity: 0;
+    animation: fadeInDown 1s ease-out 1s forwards;
+}
+
+.fade-in-2 {
+    opacity: 0;
+    animation: fadeInDown 1s ease-out 1.5s forwards;
+}
+
+.fade-in-3 {
+    opacity: 0;
+    animation: fadeInDown 1s ease-out 2s forwards;
 }
