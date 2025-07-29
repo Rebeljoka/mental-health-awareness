@@ -10,8 +10,11 @@
 /* CSS Variables */
 :root {
     --primary-color: #4c2f6f;
-    --secondary-color: #f5f5f5;
-    --text-color: #333;
+    --secondary-color: #52489f;
+    --accent-color: #c266a7;
+    --light-color: #e7c8e7;
+    --dark-color: #0d0b33;
+    --white: #fff;
     --primary-font: 'Oooh Baby', cursive;
     --secondary-font: 'Poiret One', cursive;
 }
@@ -25,7 +28,7 @@ body {
 
 /* Navigation Bar */
 .navbar {
-    background-color: #0d0b33;
+    background-color: var(--dark-color);
 }
 
 .navbar>.logo {
@@ -33,7 +36,6 @@ body {
 }
 
 #hero {
-    background-color: #dbdcde;
     background: url('../images/hero-image.webp');
     background-size: cover;
     background-position: 50% 70%;
@@ -50,6 +52,10 @@ body {
 #hero h1,
 #hero h2 {
     color: white;
+}
+
+#hero h1 {
+    font-weight: 900;
 }
 
 #hero p {
@@ -73,7 +79,7 @@ h3 {
 }
 
 #mental-health-section {
-    background-color: #4c2f6f;
+    background-color: var(--primary-color);
     min-height: 400px;
     transition: ease-out 0.5s;
 }
@@ -82,9 +88,14 @@ h3 {
     color: white;
 }
 
+#mental-health-section h2 {
+    font-size: 3rem;
+}
+
+/* Accordion Styles */
 #FaqAccordion1 .accordion-item,
 #FaqAccordion2 .accordion-item {
-    background-color: #fff;
+    background-color: var(--white);
     border: none;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     border-radius: 15px;
@@ -94,7 +105,7 @@ h3 {
 
 #FaqAccordion1 .accordion-button,
 #FaqAccordion2 .accordion-button {
-    background-color: var(--primary-color);
+    background-color: var(--dark-color);
     color: white;
     font-weight: 600;
     border: none;
@@ -110,7 +121,7 @@ h3 {
 
 #FaqAccordion1 .accordion-button:not(.collapsed),
 #FaqAccordion2 .accordion-button:not(.collapsed) {
-    background-color: #c266a7;
+    background-color: var(--accent-color);
     color: white;
     border-bottom: none;
     box-shadow: none;
@@ -118,7 +129,7 @@ h3 {
 
 #FaqAccordion1 .accordion-button:hover,
 #FaqAccordion2 .accordion-button:hover {
-    background-color: #c266a7;
+    background-color: var(--accent-color);
     color: white;
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
@@ -162,17 +173,9 @@ h3 {
 #FaqAccordion1 .accordion-button:hover::after,
 #FaqAccordion2 .accordion-button:hover::after {
     transform: translateY(-50%) rotate(360deg);
-    background-color: #e7c8e7;
+    background-color: var(--light-color);
 }
 
-/* Center accordion button text */
-#FaqAccordion1 .accordion-button,
-#FaqAccordion2 .accordion-button {
-    justify-content: center;
-    text-align: center;
-}
-
-/* Style specifically for accordion header text only */
 #FaqAccordion1 .accordion-header .accordion-button p.h5,
 #FaqAccordion2 .accordion-header .accordion-button p.h5 {
     margin: 0;
@@ -181,17 +184,16 @@ h3 {
     font-family: var(--secondary-font);
 }
 
-/* Accordion body styling */
 #FaqAccordion1 .accordion-body,
 #FaqAccordion2 .accordion-body {
     background-color: #fbf8f8;
-    color: #4c2f6f;
+    color: var(--primary-color);
     padding: 25px 35px;
     border-top: none;
     font-size: 16px;
     line-height: 1.6;
     text-align: center;
-    font-weight: 500;
+    font-weight: 900;
 }
 
 #FaqAccordion1 .accordion-collapse,
@@ -201,12 +203,64 @@ h3 {
 
 /* Quick Tips Carousel Styles */
 #quick-tips-section {
-    background: linear-gradient(to bottom, #4c2f6f 0%, #52489f 5%, #52489f 100%);
+    background: linear-gradient(to bottom, var(--primary-color) 0%, var(--secondary-color) 5%, var(--secondary-color) 100%);
     transition: ease-out 0.5s;
 }
 
 #quick-tips-section h2, p {
     color: white;
+}
+
+#quick-tips-section h2 {
+    font-size: 3rem;
+}
+
+#quick-tips-section h3 {
+    color: white;
+    font-size: 2rem;
+}
+
+/* Action Buttons */
+.btn-primary-custom {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: white;
+}
+
+.btn-primary-custom:hover {
+    background-color: var(--dark-color);
+    border-color: var(--dark-color);
+    color: white;
+}
+
+.btn-accent-custom {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    color: white;
+}
+
+.btn-accent-custom:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: white;
+}
+
+.btn-light-custom {
+    background-color: var(--light-color);
+    border-color: var(--light-color);
+    color: var(--dark-color);
+}
+
+.btn-light-custom:hover {
+    background-color: white;
+    border-color: white;
+    color: var(--dark-color);
+}
+
+.btn-outline-light:hover {
+    background-color: white;
+    border-color: white;
+    color: var(--primary-color);
 }
 
 #tipsCarousel {
@@ -223,14 +277,7 @@ h3 {
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
-.card-img-top {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    object-position: center;
-}
-
-/* Carousel card images - consistent sizing */
+/* Carousel card images - simplified and consolidated */
 #tipsCarousel .card-img-top {
     width: 300px !important;
     height: 200px !important;
@@ -243,6 +290,7 @@ h3 {
     border-radius: 0.375rem 0.375rem 0 0;
     display: block;
     overflow: hidden;
+    flex-shrink: 0;
 }
 
 /* Cascading Card Layout for Large Screens */
@@ -277,7 +325,7 @@ h3 {
 
 .carousel-container .carousel-control-prev:hover,
 .carousel-container .carousel-control-next:hover {
-    background-color: #c266a7;
+    background-color: var(--accent-color);
     transform: translateY(-50%) scale(1.1);
     opacity: 1;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
@@ -366,25 +414,11 @@ h3 {
     overflow: hidden;
 }
 
-/* Image container for proper cropping */
-#tipsCarousel .card .card-img-top {
-    width: 300px !important;
-    height: 200px !important;
-    max-width: 300px;
-    max-height: 200px;
-    min-width: 300px;
-    min-height: 200px;
-    object-fit: cover;
-    object-position: center;
-    border-radius: 0.375rem 0.375rem 0 0;
-    display: block;
-    flex-shrink: 0;
-}
-
 #tipsCarousel .card-title {
     color: var(--primary-color);
     font-family: var(--primary-font);
     margin-bottom: 1rem;
+    font-weight: 900;
 }
 
 /* Checklist styles */
@@ -399,6 +433,8 @@ h3 {
 
 .checklist .form-check-input {
     margin-top: 0.125rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 4px;
 }
 
 .checklist .form-check-input:checked {
@@ -416,6 +452,7 @@ h3 {
     font-size: 0.9rem;
     line-height: 1.4;
     transition: all 0.3s ease;
+    font-weight: 600;
 }
 
 /* Fade-in Animation */
