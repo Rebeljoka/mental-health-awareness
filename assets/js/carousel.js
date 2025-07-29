@@ -133,7 +133,7 @@ function createCardHTML(card, index) {
                     <img src="${card.image}" class="card-img-top" alt="${card.alt}">
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title text-center">${card.title}</h5>
+                    <h3 class="card-title text-center">${card.title}</h3>
                     <div class="checklist">
                         ${card.tasks.map((task, taskIndex) => `
                             <div class="form-check">
