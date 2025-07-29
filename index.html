@@ -735,31 +735,37 @@
 
     <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
     <script>
-        document
-            .querySelectorAll(".navbar-collapse .nav-link")
-            .forEach((link) => {
-                link.addEventListener("click", function (e) {
-                    let href = e.target.getAttribute("href");
-                    if (!href || !href.startsWith("#")) return;
-                    let section = document.querySelector(href);
-                    if (section) {
-                        e.preventDefault(); // Prevent default anchor click behavior
-                        // Get the actual navbar height (fixed-top)
+        document.querySelectorAll(".navbar-collapse .nav-link").forEach((link) => {
+            link.addEventListener("click", function (e) {
+                let href = link.getAttribute("href");
+                if (!href || !href.startsWith("#")) return;
+                let section = document.querySelector(href);
+                if (section) {
+                    e.preventDefault();
+                    let navCollapse = document.querySelector(".navbar-collapse");
+                    // If navbar is open (mobile), collapse it first, then scroll after collapse
+                    if (navCollapse && navCollapse.classList.contains("show")) {
+                        navCollapse.classList.remove("show");
+                        // Wait for collapse animation (Bootstrap default is 350ms)
+                        setTimeout(() => {
+                            let navbar = document.querySelector('.navbar.fixed-top');
+                            let navbarHeight = navbar ? navbar.offsetHeight : 0;
+                            window.scroll({
+                                top: section.offsetTop - navbarHeight,
+                                behavior: "smooth",
+                            });
+                        }, 400);
+                    } else {
                         let navbar = document.querySelector('.navbar.fixed-top');
                         let navbarHeight = navbar ? navbar.offsetHeight : 0;
-                        // Scroll to the section minus the navbar height
                         window.scroll({
                             top: section.offsetTop - navbarHeight,
                             behavior: "smooth",
                         });
-                        // Collapse navbar if open (for mobile)
-                        let navCollapse = document.querySelector(".navbar-collapse");
-                        if (navCollapse && navCollapse.classList.contains("show")) {
-                            navCollapse.classList.remove("show");
-                        }
                     }
-                });
+                }
             });
+        });
     </script>
 </body>
 
