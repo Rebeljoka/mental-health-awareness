@@ -533,173 +533,6 @@ h3 {
 
 /* Supporting Someone Section */
 
-/* Small screens - Mobile devices (up to 767px) */
-@media (max-width: 767.98px) {
-    /* Carousel layout - show only center card */
-    #tipsCarousel {
-        height: 400px;
-    }
-    
-    .carousel-container {
-        margin: 0 20px;
-        padding: 10px 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .card-row {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-    }
-    
-    .card-wrapper:nth-child(1),
-    .card-wrapper:nth-child(2),
-    .card-wrapper:nth-child(4),
-    .card-wrapper:nth-child(5) {
-        display: none;
-    }
-    
-    .card-wrapper:nth-child(3) {
-        position: relative;
-        left: auto;
-        top: auto;
-        margin: 0 auto;
-        transform: none;
-        width: 100%;
-        max-width: 350px;
-        height: auto;
-        display: flex;
-        justify-content: center;
-    }
-    
-    .card-wrapper:nth-child(3) .card {
-        width: 100%;
-        max-width: 320px;
-    }
-    
-    /* Navigation buttons for mobile */
-    .carousel-container .carousel-control-prev {
-        left: -15px;
-        width: 50px;
-        height: 50px;
-    }
-    
-    .carousel-container .carousel-control-next {
-        right: -15px;
-        width: 50px;
-        height: 50px;
-    }
-    
-    .carousel-container .carousel-control-prev-icon,
-    .carousel-container .carousel-control-next-icon {
-        background-size: 18px 18px;
-    }
-}
-
-/* Medium screens - Tablets (768px to 991px) */
-@media (min-width: 768px) and (max-width: 991.98px) {
-    /* Carousel layout - show 3 cards */
-    #tipsCarousel {
-        height: 400px;
-    }
-    
-    .carousel-container {
-        margin: 0 40px;
-        padding: 10px 0;
-    }
-    
-    /* Hide outer cards, show center 3 */
-    .card-wrapper:nth-child(1),
-    .card-wrapper:nth-child(5) {
-        display: none;
-    }
-    
-    /* Adjust positioning for 3-card layout */
-    .card-wrapper:nth-child(2) {
-        transform: translateX(-200px) translateZ(-100px) scale(0.8) rotateY(25deg);
-        opacity: 0.7;
-    }
-    
-    .card-wrapper:nth-child(3) {
-        transform: translateX(0) translateZ(0) scale(1) rotateY(0deg);
-        opacity: 1;
-    }
-    
-    .card-wrapper:nth-child(4) {
-        transform: translateX(200px) translateZ(-100px) scale(0.8) rotateY(-25deg);
-        opacity: 0.7;
-    }
-    
-    /* Navigation buttons for tablets */
-    .carousel-container .carousel-control-prev {
-        left: -25px;
-        width: 55px;
-        height: 55px;
-    }
-    
-    .carousel-container .carousel-control-next {
-        right: -25px;
-        width: 55px;
-        height: 55px;
-    }
-    
-    .carousel-container .carousel-control-prev-icon,
-    .carousel-container .carousel-control-next-icon {
-        background-size: 20px 20px;
-    }
-}
-
-/* Medium-Large screens - Small desktops (992px to 1199px) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
-    .carousel-container {
-        margin: 0 60px;
-    }
-    
-    /* Slightly reduce spacing for medium screens */
-    .card-wrapper:nth-child(1) {
-        transform: translateX(-260px) translateZ(-300px) scale(0.7) rotateY(35deg);
-    }
-    
-    .card-wrapper:nth-child(2) {
-        transform: translateX(-130px) translateZ(-150px) scale(0.85) rotateY(20deg);
-    }
-    
-    .card-wrapper:nth-child(4) {
-        transform: translateX(130px) translateZ(-150px) scale(0.85) rotateY(-20deg);
-    }
-    
-    .card-wrapper:nth-child(5) {
-        transform: translateX(260px) translateZ(-300px) scale(0.7) rotateY(-35deg);
-    }
-}
-
-/* Extra Large screens - Large desktops (1400px and up) */
-@media (min-width: 1400px) {
-    .carousel-container {
-        margin: 0 80px;
-    }
-    
-    .card-wrapper:nth-child(1) {
-        transform: translateX(-340px) translateZ(-300px) scale(0.7) rotateY(35deg);
-    }
-    
-    .card-wrapper:nth-child(2) {
-        transform: translateX(-170px) translateZ(-150px) scale(0.85) rotateY(20deg);
-    }
-    
-    .card-wrapper:nth-child(4) {
-        transform: translateX(170px) translateZ(-150px) scale(0.85) rotateY(-20deg);
-    }
-    
-    .card-wrapper:nth-child(5) {
-        transform: translateX(340px) translateZ(-300px) scale(0.7) rotateY(-35deg);
-    }
-}
-
-/* Supporting Someone Section */
 #supporting-section {
     background: linear-gradient(to bottom, var(--secondary-color) 0%, #c266a7 5%, #c266a7 100%);
     min-height: 400px;
@@ -951,3 +784,169 @@ h3 {
 /* ============================================
    MEDIA QUERIES & RESPONSIVE DESIGN
 ============================================== */
+
+/* Small screens - Mobile devices (up to 767px) */
+@media (max-width: 767.98px) {
+    /* Carousel layout - show only center card */
+    #tipsCarousel {
+        height: 400px;
+    }
+    
+    .carousel-container {
+        margin: 0 20px;
+        padding: 10px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .card-wrapper:nth-child(1),
+    .card-wrapper:nth-child(2),
+    .card-wrapper:nth-child(4),
+    .card-wrapper:nth-child(5) {
+        display: none;
+    }
+    
+    .card-wrapper:nth-child(3) {
+        position: relative;
+        left: auto;
+        top: auto;
+        margin: 0 auto;
+        transform: none;
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .card-wrapper:nth-child(3) .card {
+        width: 100%;
+        max-width: 320px;
+    }
+    
+    /* Navigation buttons for mobile */
+    .carousel-container .carousel-control-prev {
+        left: -15px;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .carousel-container .carousel-control-next {
+        right: -15px;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .carousel-container .carousel-control-prev-icon,
+    .carousel-container .carousel-control-next-icon {
+        background-size: 18px 18px;
+    }
+}
+
+/* Medium screens - Tablets (768px to 991px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* Carousel layout - show 3 cards */
+    #tipsCarousel {
+        height: 400px;
+    }
+    
+    .carousel-container {
+        margin: 0 40px;
+        padding: 10px 0;
+    }
+    
+    /* Hide outer cards, show center 3 */
+    .card-wrapper:nth-child(1),
+    .card-wrapper:nth-child(5) {
+        display: none;
+    }
+    
+    /* Adjust positioning for 3-card layout */
+    .card-wrapper:nth-child(2) {
+        transform: translateX(-200px) translateZ(-100px) scale(0.8) rotateY(25deg);
+        opacity: 0.7;
+    }
+    
+    .card-wrapper:nth-child(3) {
+        transform: translateX(0) translateZ(0) scale(1) rotateY(0deg);
+        opacity: 1;
+    }
+    
+    .card-wrapper:nth-child(4) {
+        transform: translateX(200px) translateZ(-100px) scale(0.8) rotateY(-25deg);
+        opacity: 0.7;
+    }
+    
+    /* Navigation buttons for tablets */
+    .carousel-container .carousel-control-prev {
+        left: -25px;
+        width: 55px;
+        height: 55px;
+    }
+    
+    .carousel-container .carousel-control-next {
+        right: -25px;
+        width: 55px;
+        height: 55px;
+    }
+    
+    .carousel-container .carousel-control-prev-icon,
+    .carousel-container .carousel-control-next-icon {
+        background-size: 20px 20px;
+    }
+}
+
+/* Medium-Large screens - Small desktops (992px to 1199px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .carousel-container {
+        margin: 0 60px;
+    }
+    
+    /* Slightly reduce spacing for medium screens */
+    .card-wrapper:nth-child(1) {
+        transform: translateX(-260px) translateZ(-300px) scale(0.7) rotateY(35deg);
+    }
+    
+    .card-wrapper:nth-child(2) {
+        transform: translateX(-130px) translateZ(-150px) scale(0.85) rotateY(20deg);
+    }
+    
+    .card-wrapper:nth-child(4) {
+        transform: translateX(130px) translateZ(-150px) scale(0.85) rotateY(-20deg);
+    }
+    
+    .card-wrapper:nth-child(5) {
+        transform: translateX(260px) translateZ(-300px) scale(0.7) rotateY(-35deg);
+    }
+}
+
+/* Extra Large screens - Large desktops (1400px and up) */
+@media (min-width: 1400px) {
+    .carousel-container {
+        margin: 0 80px;
+    }
+    
+    .card-wrapper:nth-child(1) {
+        transform: translateX(-340px) translateZ(-300px) scale(0.7) rotateY(35deg);
+    }
+    
+    .card-wrapper:nth-child(2) {
+        transform: translateX(-170px) translateZ(-150px) scale(0.85) rotateY(20deg);
+    }
+    
+    .card-wrapper:nth-child(4) {
+        transform: translateX(170px) translateZ(-150px) scale(0.85) rotateY(-20deg);
+    }
+    
+    .card-wrapper:nth-child(5) {
+        transform: translateX(340px) translateZ(-300px) scale(0.7) rotateY(-35deg);
+    }
+}
