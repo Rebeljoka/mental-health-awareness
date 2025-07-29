@@ -201,7 +201,7 @@ h3 {
 
 /* Quick Tips Carousel Styles */
 #quick-tips-section {
-    background-color: #52489f;
+    background: linear-gradient(to bottom, #4c2f6f 0%, #52489f 5%, #52489f 100%);
     transition: ease-out 0.5s;
 }
 
