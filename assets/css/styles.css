@@ -1,3 +1,7 @@
+/* ============================================
+   FONTS & CSS VARIABLES
+============================================== */
+
 @import url('https://fonts.googleapis.com/css2?family=Oooh+Baby:wght@400&family=Poiret+One:wght@400;700&display=swap');
 
 /*  Color Palette
@@ -19,12 +23,35 @@
     --secondary-font: 'Poiret One', cursive;
 }
 
+/* ============================================
+   GLOBAL STYLES & TYPOGRAPHY
+============================================== */
+
 /* Global Styles */
 body {
     font-family: var(--secondary-font);
     padding-top: 57.85px;
     /* Adjusted for fixed navbar height */
 }
+
+/* Headings */
+h1,
+h2,
+h3 {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+}
+
+.playtext {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* ============================================
+   NAVIGATION
+============================================== */
 
 /* Navigation Bar */
 .navbar {
@@ -34,6 +61,10 @@ body {
 .navbar>.logo {
     width: 30px;
 }
+
+/* ============================================
+   HERO SECTION
+============================================== */
 
 #hero {
     background: url('../images/hero-image.webp');
@@ -63,20 +94,9 @@ body {
     font-family: var(--secondary-font);
 }
 
-/* Headings */
-h1,
-h2,
-h3 {
-    font-family: var(--primary-font);
-    color: var(--primary-color);
-}
-
-.playtext {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-    background-color: rgba(0, 0, 0, 0.3);
-    padding: 20px;
-    border-radius: 8px;
-}
+/* ============================================
+   MENTAL HEALTH SECTION
+============================================== */
 
 #mental-health-section {
     background-color: var(--primary-color);
@@ -91,6 +111,10 @@ h3 {
 #mental-health-section h2 {
     font-size: 3rem;
 }
+
+/* ============================================
+   ACCORDION COMPONENTS
+============================================== */
 
 /* Accordion Styles */
 #FaqAccordion1 .accordion-item,
@@ -201,6 +225,10 @@ h3 {
     border: none;
 }
 
+/* ============================================
+   QUICK TIPS SECTION
+============================================== */
+
 /* Quick Tips Carousel Styles */
 #quick-tips-section {
     background: linear-gradient(to bottom, var(--primary-color) 0%, var(--secondary-color) 5%, var(--secondary-color) 100%);
@@ -219,6 +247,10 @@ h3 {
     color: white;
     font-size: 2rem;
 }
+
+/* ============================================
+   BUTTON COMPONENTS
+============================================== */
 
 /* Action Buttons */
 .btn-primary-custom {
@@ -262,6 +294,10 @@ h3 {
     border-color: white;
     color: var(--primary-color);
 }
+
+/* ============================================
+   CAROUSEL COMPONENT
+============================================== */
 
 #tipsCarousel {
     overflow: visible;
@@ -421,6 +457,10 @@ h3 {
     font-weight: 900;
 }
 
+/* ============================================
+   FORM COMPONENTS
+============================================== */
+
 /* Checklist styles */
 .checklist {
     padding: 0;
@@ -455,6 +495,10 @@ h3 {
     font-weight: 600;
 }
 
+/* ============================================
+   ANIMATIONS
+============================================== */
+
 /* Fade-in Animation */
 @keyframes fadeInDown {
     from {
@@ -484,8 +528,10 @@ h3 {
 }
 
 /* ============================================
-                                    MEDIA QUERIES
+   SUPPORTING SOMEONE SECTION
 ============================================== */
+
+/* Supporting Someone Section */
 
 /* Small screens - Mobile devices (up to 767px) */
 @media (max-width: 767.98px) {
@@ -652,3 +698,133 @@ h3 {
         transform: translateX(340px) translateZ(-300px) scale(0.7) rotateY(-35deg);
     }
 }
+
+/* Supporting Someone Section */
+#supporting-section {
+    background: linear-gradient(to bottom, var(--secondary-color) 0%, #c266a7 5%, #c266a7 100%);
+    min-height: 400px;
+    transition: ease-out 0.5s;
+}
+
+#supporting-section h2, p {
+    color: white;
+}
+
+#supporting-section h2 {
+    font-size: 3rem;
+}
+
+#supporting-section h3 {
+    font-family: var(--secondary-font);
+    font-weight: 900;
+    color: white;
+}
+
+#supporting-section .card {
+    border: none;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    margin-bottom: 2rem;
+    background-color: white;
+    overflow: hidden;
+}
+
+#supporting-section .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+}
+
+/* Ensure no spacing between header and body when collapsed */
+#supporting-section .card-header + .card-body {
+    border-top: none !important;
+}
+
+#supporting-section .card-header {
+    background-color: var(--dark-color);
+    color: white;
+    border-radius: 15px 15px 0 0;
+    padding: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    margin-bottom: 0 !important;
+    border-bottom: none !important;
+}
+
+/* When card is collapsed, make header fill the entire card */
+#supporting-section .card-header[aria-expanded="false"] {
+    border-radius: 15px !important;
+    margin-bottom: 0 !important;
+}
+
+#supporting-section .card-header:hover {
+    background-color: var(--primary-color);
+    transform: translateY(-2px);
+}
+
+#supporting-section .card-header::after {
+    content: "▼";
+    position: absolute;
+    right: 1.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0.9rem;
+    transition: transform 0.3s ease;
+    opacity: 0.8;
+}
+
+#supporting-section .card-header[aria-expanded="true"]::after {
+    transform: translateY(-50%) rotate(180deg);
+}
+
+#supporting-section .card-title {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    margin: 0;
+}
+
+#supporting-section .card-body {
+    padding: 0 !important;
+    margin: 0 !important;
+    color: var(--dark-color);
+    font-weight: 500;
+}
+
+#supporting-section .card-body .collapse {
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+}
+
+#supporting-section .card-body .collapse:not(.show) {
+    padding: 0 !important;
+    margin: 0 !important;
+    height: 0 !important;
+    overflow: hidden;
+}
+
+#supporting-section .card-body .collapse.show .card-text {
+    padding: 1.5rem;
+    margin: 0;
+}
+
+#supporting-section .card-body .collapse.show .card-text {
+    padding: 1.5rem;
+    margin: 0;
+}
+
+/* Make paragraph text in collapsible panels black */
+#supporting-section .collapse .card-text p {
+    color: black;
+}
+
+/* Make list items in supporting section bold */
+#supporting-section .collapse .card-text li {
+    font-weight: 900;
+    color: black;
+}
+
+/* ============================================
+   MEDIA QUERIES & RESPONSIVE DESIGN
+============================================== */
