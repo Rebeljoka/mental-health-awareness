@@ -31,6 +31,7 @@
 </head>
 
 <body>
+
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
         <div class="container">
@@ -50,7 +51,7 @@
                         <a class="nav-link" href="#mental-health-section">Mental Health</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Quick Tips</a>
+                        <a class="nav-link" href="#quick-tips-section">Quick Tips</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Support</a>
@@ -62,6 +63,7 @@
             </div>
         </div>
     </nav>
+
     <!-- header -->
     <header id="hero" class="container">
         <!-- section with hero image -->
@@ -82,6 +84,7 @@
             </div>
         </section>
     </header>
+
     <!-- Main Content -->
     <main>
 
@@ -103,97 +106,104 @@
                     </div>
                 </div>
             </div>
-            <div class="row accordion accordion-flush" id="FaqAccordion1">
+            <div class="row">
                 <div class="col-md-6">
-                    <div class="accordion-item border-0 mb-5">
-                        <h2 class="accordion-header" id="flush-heading-1">
-                            <div class="accordion-button collapsed text-center" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapse-1" aria-expanded="false"
-                                aria-controls="flush-collapse-1">
-                                <p class="h5 fw-bold">Depression <i class="fa-solid fa-face-frown-open"></i></p>
+                    <div class="accordion" id="FaqAccordion1">
+                        <div class="accordion-item">
+                            <div class="accordion-header" id="flush-heading-1">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse-1" aria-expanded="false"
+                                    aria-controls="flush-collapse-1">
+                                    <p class="h5 mb-0">Depression</p>
+                                </button>
                             </div>
-                        </h2>
-                        <div id="flush-collapse-1" class="accordion-collapse collapse show"
-                            aria-labelledby="flush-heading-1" data-bs-parent="#FaqAccordion1">
-                            <div class="accordion-body fw-bold"> - Persistent sadness, hopelessness, or disinterest that
-                                affects daily life.<br> - Often includes low energy, sleep/appetite changes, and social
-                                withdrawal.</div>
+                            <div id="flush-collapse-1" class="accordion-collapse collapse"
+                                aria-labelledby="flush-heading-1" data-bs-parent="#FaqAccordion1">
+                                <div class="accordion-body">Persistent sadness, hopelessness, or disinterest that
+                                    affects daily life. Often includes low energy, sleep/appetite changes, and social
+                                    withdrawal.</div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="accordion-item border-0 mb-5">
-                        <h2 class="accordion-header" id="flush-heading-2">
-                            <div class="accordion-button collapsed text-center" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapse-2" aria-expanded="false"
-                                aria-controls="flush-collapse-2">
-                                <p class="h5 fw-bold">Anxiety Disorders <i class="fa-solid fa-face-grimace"></i></p>
+                        
+                        <div class="accordion-item">
+                            <div class="accordion-header" id="flush-heading-3">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse-3" aria-expanded="false"
+                                    aria-controls="flush-collapse-3">
+                                    <p class="h5 mb-0">Bipolar Disorder</p>
+                                </button>
                             </div>
-                        </h2>
-                        <div id="flush-collapse-2" class="accordion-collapse collapse" aria-labelledby="flush-heading-2"
-                            data-bs-parent="#FaqAccordion1">
-                            <div class="accordion-body fw-bold">- Excessive worry, fear, or panic, either constant or
-                                situation-specific.<br> - Includes physical symptoms like rapid heartbeat, sweating, and
-                                restlessness.</div>
+                            <div id="flush-collapse-3" class="accordion-collapse collapse" aria-labelledby="flush-heading-3"
+                                data-bs-parent="#FaqAccordion1">
+                                <div class="accordion-body">Alternates between emotional highs (mania/hypomania)
+                                    and lows (depression). Affects energy, decision-making, relationships, and
+                                    self-image.</div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="accordion-item border-0 mb-5">
-                        <h2 class="accordion-header" id="flush-heading-3">
-                            <div class="accordion-button collapsed text-center" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapse-3" aria-expanded="false"
-                                aria-controls="flush-collapse-3">
-                                <p class="h5 fw-bold">Bipolar Disorder <i class="fa-solid fa-face-sad-tear"></i></p>
+                        
+                        <div class="accordion-item">
+                            <div class="accordion-header" id="flush-heading-5">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse-5" aria-expanded="false"
+                                    aria-controls="flush-collapse-5">
+                                    <p class="h5 mb-0">OCD (Obsessive-Compulsive Disorder)</p>
+                                </button>
                             </div>
-                        </h2>
-                        <div id="flush-collapse-3" class="accordion-collapse collapse" aria-labelledby="flush-heading-3"
-                            data-bs-parent="#FaqAccordion1">
-                            <div class="accordion-body fw-bold">- Alternates between emotional highs (mania/hypomania)
-                                and lows (depression). <br> - Affects energy, decision-making, relationships, and
-                                self-image. </div>
+                            <div id="flush-collapse-5" class="accordion-collapse collapse" aria-labelledby="flush-heading-5"
+                                data-bs-parent="#FaqAccordion1">
+                                <div class="accordion-body">Involves intrusive thoughts and repetitive rituals to
+                                    reduce anxiety. Can interfere with work, relationships, and personal well-being.</div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                
                 <div class="col-md-6">
-                    <div class="accordion-item border-0 mb-5">
-                        <h2 class="accordion-header" id="flush-heading-4">
-                            <div class="accordion-button collapsed text-center" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapse-4" aria-expanded="false"
-                                aria-controls="flush-collapse-4">
-                                <p class="h5 fw-bold">PTSD (Post-Traumatic Stress Disorder) <i class="fa-solid fa-face-surprise"></i></p>
+                    <div class="accordion" id="FaqAccordion2">
+                        <div class="accordion-item">
+                            <div class="accordion-header" id="flush-heading-2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse-2" aria-expanded="false"
+                                    aria-controls="flush-collapse-2">
+                                    <p class="h5 mb-0">Anxiety Disorders</p>
+                                </button>
                             </div>
-                        </h2>
-                        <div id="flush-collapse-4" class="accordion-collapse collapse" aria-labelledby="flush-heading-4"
-                            data-bs-parent="#FaqAccordion1">
-                            <div class="accordion-body fw-bold">- Develops after trauma, with flashbacks, nightmares,
-                                and emotional numbness. <br> - Everyday situations may feel unsafe, disrupting sleep and
-                                concentration.</div>
-                        </div>
-                    </div>
-                    <div class="accordion-item border-0 mb-5">
-                        <h2 class="accordion-header" id="flush-heading-5">
-                            <div class="accordion-button collapsed text-center" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapse-5" aria-expanded="false"
-                                aria-controls="flush-collapse-5">
-                                <p class="h5 fw-bold">OCD (Obsessive-Compulsive Disorder) <i class="fa-solid fa-hand-sparkles"></i></p>
-                            </div>
-                        </h2>
-                        <div id="flush-collapse-5" class="accordion-collapse collapse" aria-labelledby="flush-heading-5"
-                            data-bs-parent="#FaqAccordion1">
-                            <div class="accordion-body fw-bold">- Involves intrusive thoughts and repetitive rituals to
-                                reduce anxiety.<br> - Can interfere with work, relationships, and personal well-being.
+                            <div id="flush-collapse-2" class="accordion-collapse collapse" aria-labelledby="flush-heading-2"
+                                data-bs-parent="#FaqAccordion2">
+                                <div class="accordion-body">Excessive worry, fear, or panic, either constant or
+                                    situation-specific. Includes physical symptoms like rapid heartbeat, sweating, and
+                                    restlessness.</div>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion-item border-0 mb-5">
-                        <h2 class="accordion-header" id="flush-heading-6">
-                            <div class="accordion-button collapsed text-center" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapse-6" aria-expanded="false"
-                                aria-controls="flush-collapse-6">
-                                <p class="h5 fw-bold">Eating Disorders <i class="fa-solid fa-burger"></i></p>
+                        
+                        <div class="accordion-item">
+                            <div class="accordion-header" id="flush-heading-4">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse-4" aria-expanded="false"
+                                    aria-controls="flush-collapse-4">
+                                    <p class="h5 mb-0">PTSD (Post-Traumatic Stress Disorder)</p>
+                                </button>
                             </div>
-                        </h2>
-                        <div id="flush-collapse-6" class="accordion-collapse collapse" aria-labelledby="flush-heading-6"
-                            data-bs-parent="#FaqAccordion1">
-                            <div class="accordion-body fw-bold">- Unhealthy relationship with food, body image, and
-                                control.<br> - Can cause serious physical harm and often stem from emotional distress.
+                            <div id="flush-collapse-4" class="accordion-collapse collapse" aria-labelledby="flush-heading-4"
+                                data-bs-parent="#FaqAccordion2">
+                                <div class="accordion-body">Develops after trauma, with flashbacks, nightmares,
+                                    and emotional numbness. Everyday situations may feel unsafe, disrupting sleep and
+                                    concentration.</div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <div class="accordion-header" id="flush-heading-6">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse-6" aria-expanded="false"
+                                    aria-controls="flush-collapse-6">
+                                    <p class="h5 mb-0">Eating Disorders</p>
+                                </button>
+                            </div>
+                            <div id="flush-collapse-6" class="accordion-collapse collapse" aria-labelledby="flush-heading-6"
+                                data-bs-parent="#FaqAccordion2">
+                                <div class="accordion-body">Unhealthy relationship with food, body image, and
+                                    control. Can cause serious physical harm and often stem from emotional distress.</div>
                             </div>
                         </div>
                     </div>
@@ -202,13 +212,50 @@
         </section>
 
         <!-- Quick Tips Section -->
+        <section id="quick-tips-section" class="container py-5">
+            <div class="row mb-5">
+                <div class="col-12">
+                    <div class="text-center">
+                        <h2 class="fw-bold">Quick Tips for Mental Wellness</h2>
+                        <p class="fw-bold">Simple daily practices to support your mental health journey</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Carousel -->
+            <div id="tipsCarousel" class="position-relative">
+                <div id="carousel-container">
+                    <div class="carousel-container">
+                        <!-- Previous Button -->
+                        <button class="carousel-control-prev position-absolute" type="button" onclick="previousSlide()">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        
+                        <!-- Next Button -->
+                        <button class="carousel-control-next position-absolute" type="button" onclick="nextSlide()">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+
+                        <div class="card-row" id="card-row">
+                            <!-- Cards will be dynamically inserted here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </main>
+
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
     <!-- Font Awesome kit -->
-
     <script src="https://kit.fontawesome.com/2160d739d7.js" crossorigin="anonymous"></script>
+
+    <!-- Carousel JavaScript -->
+    <script src="./assets/js/carousel.js"></script>
 
     <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
     <script>
