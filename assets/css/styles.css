@@ -30,7 +30,7 @@
 /* Global Styles */
 body {
     font-family: var(--secondary-font);
-    padding-top: 74px;
+    padding-top: 67.5px;
     /* Adjusted for fixed navbar height */
 }
 
@@ -479,6 +479,12 @@ h3 {
     margin-top: 0.125rem;
     border: 2px solid var(--primary-color);
     border-radius: 4px;
+    width: 1.5em;
+    height: 1.5em;
+    min-width: 1.5em;
+    min-height: 1.5em;
+    cursor: pointer;
+    margin-right: 1em;
 }
 
 .checklist .form-check-input:checked {
