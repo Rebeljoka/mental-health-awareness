@@ -739,17 +739,24 @@
             .querySelectorAll(".navbar-collapse .nav-link")
             .forEach((link) => {
                 link.addEventListener("click", function (e) {
-                    let section = document.querySelector(e.target.getAttribute("href"));
+                    let href = e.target.getAttribute("href");
+                    if (!href || !href.startsWith("#")) return;
+                    let section = document.querySelector(href);
                     if (section) {
                         e.preventDefault(); // Prevent default anchor click behavior
-                        let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                        // Get the actual navbar height (fixed-top)
+                        let navbar = document.querySelector('.navbar.fixed-top');
+                        let navbarHeight = navbar ? navbar.offsetHeight : 0;
+                        // Scroll to the section minus the navbar height
                         window.scroll({
-                            top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                            top: section.offsetTop - navbarHeight,
                             behavior: "smooth",
                         });
-                        document
-                            .querySelector(".navbar-collapse")
-                            .classList.remove("show"); // Collapse navbar
+                        // Collapse navbar if open (for mobile)
+                        let navCollapse = document.querySelector(".navbar-collapse");
+                        if (navCollapse && navCollapse.classList.contains("show")) {
+                            navCollapse.classList.remove("show");
+                        }
                     }
                 });
             });
