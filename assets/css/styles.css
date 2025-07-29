@@ -30,7 +30,7 @@
 /* Global Styles */
 body {
     font-family: var(--secondary-font);
-    padding-top: 57.85px;
+    padding-top: 74px;
     /* Adjusted for fixed navbar height */
 }
 
