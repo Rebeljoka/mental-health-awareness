@@ -34,7 +34,7 @@ body {
 
 #hero {
     background-color: #dbdcde;
-    background: url('./images/hero-image.webp');
+    background: url('../images/hero-image.webp');
     background-size: cover;
     background-position: 50% 70%;
     min-height: 500px;
