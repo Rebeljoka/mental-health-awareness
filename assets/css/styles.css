@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby:wght@400&family=Poiret+One:wght@400;700&display=swap');
 
 /*  Color Palette
 #0d0b33
@@ -39,6 +39,7 @@ body {
     background-position: 50% 70%;
     min-height: 500px;
     padding: 3% 0;
+    transition: ease-out 0.5s;
 }
 
 #hero .row {
@@ -73,6 +74,9 @@ h3 {
 
 #mental-health-section {
     background-color: #e7c8e7;
+    min-height: 728px;
+    border: 2px solid black;
+    transition: ease-out 0.5s;
 }
 
 #FaqAccordion1 .accordion-button {
@@ -97,9 +101,11 @@ h3 {
     text-align: center;
 }
 
-#FaqAccordion1 .accordion-button p {
+/* Style specifically for accordion header text only */
+#FaqAccordion1 .accordion-header .accordion-button p.h5 {
     margin: 0;
     width: 100%;
+    font-weight: 900 !important;
 }
 
 /* Center accordion body text */
