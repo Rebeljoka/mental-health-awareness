@@ -786,6 +786,93 @@ h3 {
 }
 
 /* ============================================
+   FOOTER STYLES
+============================================== */
+.footer {
+    background-color: var(--dark-color) !important;
+    color: var(--white) !important;
+}
+.footer a,
+.footer a:visited {
+    color: var(--white) !important;
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+.footer a:hover,
+.footer a:focus {
+    color: var(--accent-color) !important;
+    text-decoration: underline;
+}
+.footer .navbar-brand {
+    color: var(--white) !important;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+.footer small {
+    color: var(--white) !important;
+}
+.footer i,
+.footer .fa {
+    color: var(--white) !important;
+    transition: color 0.2s;
+}
+.footer a[aria-label]:hover i,
+.footer a[aria-label]:focus i {
+    color: var(--accent-color) !important;
+}
+
+/* Footer 'Built with' line styles */
+.footer-made-in {
+    color: var(--white);
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3em;
+}
+.footer-heart {
+    color: var(--accent-color);
+    font-size: 1.1em;
+    margin: 0 0.1em 0 0.1em;
+    vertical-align: middle;
+}
+.footer-geotag {
+    color: var(--accent-color);
+    font-size: 1.1em;
+    margin: 0 0.15em 0 0.2em;
+    vertical-align: middle;
+}
+
+.footer-lancs-link {
+    color: var(--white);
+    font-weight: 700;
+    text-decoration: underline;
+    margin-left: 0.15em;
+    transition: color 0.2s;
+}
+.footer-lancs-link:hover,
+.footer-lancs-link:focus {
+    color: var(--accent-color);
+    text-decoration: underline;
+}
+
+.footer-logo {
+    width: 32px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+.footer-legal-link {
+    color: var(--white) !important;
+    text-decoration: underline;
+    font-size: 1rem;
+    transition: color 0.2s;
+}
+.footer-legal-link:hover,
+.footer-legal-link:focus {
+    color: var(--accent-color) !important;
+    text-decoration: underline;
+}
+
+/* ============================================
    MEDIA QUERIES & RESPONSIVE DESIGN
 ============================================== */
 
