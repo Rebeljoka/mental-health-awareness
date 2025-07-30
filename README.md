@@ -221,47 +221,32 @@ Whether you're a developer, designer, writer, or someone with lived experience â
 - **Framework:** [Bootstrap 5](https://getbootstrap.com/) (MIT License)
 - **Code:** All code is original or generated with the assistance of GitHub Copilot. No third-party code is used without attribution.
 
-![!AI Generated Text](Documentation/use%20of%20AI/3ai-generated-text.png)
-*AI Generated Text*
-![!AI Generated Animation](Documentation/use%20of%20AI/1ai-css-animation-to-header.png)
-![!AI Generated Animation](Documentation/use%20of%20AI/2ainmation-to-header.png)
-*AI Generated Animation For Header*
-![AI Generated Javascript for Card](Documentation/use%20of%20AI/4ai-gen-js-card-carousel.png)
-![AI Generated Javascript for Card](Documentation/use%20of%20AI/5ai-gen-js-for-card-carousel.png)
-*AI Generated Javascript Code for Card Carousel*
-![AI Generated checklist for Quick Tips](Documentation/use%20of%20AI/6ai-generated-checklist-for-quick-tips-section.png)
-*AI Generated Checklist Within Quick Tips Car Carousel*
-![AI Generated Anchor links + Js for supporing section to Accordion](Documentation/use%20of%20AI/7ai-gen-js-anchor-link-from-supporting-accordion.png)
-*AI Generated Anchor links + Js for supporing section to Accordion*
-![AI Generated Aria Attributes to Supporting Section](Documentation/use%20of%20AI/8ai-gen-aria-attributes-added-where-necessary.png)
-*AI Generated Aria Attributes to Supporting Section*
-![AI Generated Bug Scanning](Documentation/use%20of%20AI/bug-fix-gramatical-error.png)
-*AI Generated Bug Scanning, Broken Links, Unused CSS, Gramatical Errors*
-
 ---
 
+## ðŸ“š Use Of AI
+
 <div align="center">
-  <img src="Documentation/use%20of%20AI/3ai-generated-text.png" alt="AI Generated Text" width="500">
+  <img src="Documentation/use-of-AI/3ai-generated-text.png" alt="AI Generated Text" width="500">
   <p><em>AI Generated Text</em></p>
 
-  <img src="Documentation/use%20of%20AI/1ai-css-animation-to-header.png" alt="AI Generated Animation 1" width="500">
-  <img src="Documentation/use%20of%AI/2ainmation-to-header.png" alt="AI Generated Animation 2" width="500">
+  <img src="Documentation/use-of-AI/1ai-css-animation-to-header.png" alt="AI Generated Animation 1" width="500">
+  <img src="Documentation/use-of-AI/2ainmation-to-header.png" alt="AI Generated Animation 2" width="500">
   <p><em>AI Generated Animation For Header</em></p>
 
-  <img src="Documentation/use%20of%AI/4ai-gen-js-card-carousel.png" alt="AI Generated JS for Card 1" width="500">
-  <img src="Documentation/use%20of%AI/5ai-gen-js-for-card-carousel.png" alt="AI Generated JS for Card 2" width="500">
+  <img src="Documentation/use-of-AI/4ai-gen-js-card-carousel.png" alt="AI Generated JS for Card 1" width="500">
+  <img src="Documentation/use-of-AI/5ai-gen-js-for-card-carousel.png" alt="AI Generated JS for Card 2" width="500">
   <p><em>AI Generated JavaScript Code for Card Carousel</em></p>
 
-  <img src="Documentation/use%20of%AI/6ai-generated-checklist-for-quick-tips-section.png" alt="AI Generated Checklist" width="500">
+  <img src="Documentation/use-of-AI/6ai-generated-checklist-for-quick-tips-section.png" alt="AI Generated Checklist" width="500">
   <p><em>AI Generated Checklist Within Quick Tips Carousel</em></p>
 
-  <img src="Documentation/use%20of%AI/7ai-gen-js-anchor-link-from-supporting-accordion.png" alt="AI Generated Anchor Link" width="500">
+  <img src="Documentation/use-of-AI/7ai-gen-js-anchor-link-from-supporting-accordion.png" alt="AI Generated Anchor Link" width="500">
   <p><em>AI Generated Anchor Links + JavaScript for Supporting Section</em></p>
 
-  <img src="Documentation/use%20of%AI/8ai-gen-aria-attributes-added-where-necessary.png" alt="AI Generated Aria Attributes" width="500">
+  <img src="Documentation/use-of-AI/8ai-gen-aria-attributes-added-where-necessary.png" alt="AI Generated Aria Attributes" width="500">
   <p><em>AI Generated Aria Attributes to Supporting Section</em></p>
 
-  <img src="Documentation/use%20of%AI/bug-fix-gramatical-error.png" alt="AI Generated Bug Scanning" width="500">
+  <img src="Documentation/use-of-AI/bug-fix-gramatical-error.png" alt="AI Generated Bug Scanning" width="500">
   <p><em>AI Generated Bug Scanning, Broken Links, Unused CSS, Grammatical Errors</em></p>
 </div>
 
