@@ -1,7 +1,7 @@
 # 🚀 Mental Health Awareness Website
 
-> Build. Test. Ship. Improve.  
 > Everything you need to create a reliable, scalable single-page web application.
+> A simple, supportive space to raise awareness about mental health through open-source collaboration.
 
 <div align="center">
   <code><img width="70" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/html.png" alt="HTML" title="HTML"/></code>
@@ -13,6 +13,69 @@
   <code><img width="70" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/github.png" alt="GitHub" title="GitHub"/></code>
   <code><img width="70" <img src="https://iconic-api.onrender.com/dark/copilot" alt="Copilot" title="Copilot"/></code>
 </div>
+
+---
+
+## 🌸 Introduction
+
+> “Mental health is not a destination, but a process. It's about how you drive, not where you're going.”  
+> — Noam Shpancer
+
+Welcome to **Mental Health Awareness**, an open-source initiative rooted in empathy, understanding, and emotional resilience.
+
+This project is part of the Quiet Bloom ethos — nurturing supportive spaces where calm design meets meaningful dialogue. Together, we're creating a platform that feels:
+
+- 🌼 **Gentle** — soft tones, clear layouts, and accessible language
+- 🤝 **Inclusive** — inviting everyone to contribute, learn, and grow
+- 📘 **Resourceful** — offering tools and conversations that empower
+
+Whether you're a developer, designer, or simply someone who cares, your presence matters. Let’s build something that whispers reassurance and stands firm in support.
+
+---
+
+## 🌼 Features
+
+Quiet Bloom’s Mental Health Awareness project offers tools and spaces designed to be as reassuring as they are informative — grounded in accessibility, emotional clarity, and gentle design.
+
+- 🪴 **Emotive Content**  
+  Thoughtfully curated insights and affirmations that validate lived experiences and foster deeper understanding.
+
+- 🎐 **Accessible Resources**  
+  Designed with clear typography and calm visual language — approachable for all, including those navigating cognitive overwhelm.
+
+- 💬 **Open Conversation**  
+  Structures and formats that invite vulnerability, community feedback, and peer-to-peer support in a judgment-free space.
+
+- 🛠️ **Creative Contributions**  
+  Welcoming developers, designers, and thinkers to co-create gentle tools — from affirmations to calming interfaces.
+
+- 🌥️ **Quiet Advocacy**  
+  A non-disruptive approach to raising awareness, rooted in softness, subtlety, and mindful digital presence.
+
+### 1. Responsive Header with WCAG support against color contrasts
+
+**Welcoming introduction, calming visuals, and clear site purpose.**
+![Hero Section](Documentation/Research,%20Credit%20and%20Sources/hero-section.png)
+
+### 2. Mental Health Accordion
+
+**Accessible, collapsible panels for key mental health conditions with concise explanations.**
+![Accordion](Documentation/Research,%20Credit%20and%20Sources/mental-health-section.png)
+
+### 3. Quick Tips Carousel
+
+**Interactive carousel with daily wellness checklists and touch-friendly controls.**
+![Quick Tips Carousel](Documentation/Research,%20Credit%20and%20Sources/quick-tips-section.png)
+
+### 4. Supporting Someone Section
+
+**Actionable advice for helping others, with expandable cards and clear ARIA accessibility.**
+![Collapsible Card Section](Documentation/Research,%20Credit%20and%20Sources/supporting-section.png)
+
+### 5. Modern Footer
+
+**High-contrast, accessible footer with legal links, social icons, and location branding.**
+![Modern, High Contrast Footer](Documentation/Research,%20Credit%20and%20Sources/Modern-footer.png)
 
 ---
 
@@ -49,9 +112,7 @@ Quiet Bloom is a modern, accessible single-page web application dedicated to pro
 **User Stories**
 ![User Stories](Documentation/Research,%20Credit%20and%20Sources/user-stories.png)
 
----
-
-## 📦 Deployment Steps
+### 📦 Deployment Steps
 
 1. **Clone the repository:**
 
@@ -67,35 +128,6 @@ Quiet Bloom is a modern, accessible single-page web application dedicated to pro
 
 3. **Open `index.html` in your browser** or deploy to a static hosting platform (e.g., GitHub Pages, Netlify, Vercel).
 4. **No build step required** – all assets are ready to use.
-
----
-
-## ✨ Features & Screenshots
-
-### 1. Responsive Header with WCAG support against color contrasts
-
-**Welcoming introduction, calming visuals, and clear site purpose.**
-![Hero Section](Documentation/Research,%20Credit%20and%20Sources/hero-section.png)
-
-### 2. Mental Health Accordion
-
-**Accessible, collapsible panels for key mental health conditions with concise explanations.**
-![Accordion](Documentation/Research,%20Credit%20and%20Sources/mental-health-section.png)
-
-### 3. Quick Tips Carousel
-
-**Interactive carousel with daily wellness checklists and touch-friendly controls.**
-![Quick Tips Carousel](Documentation/Research,%20Credit%20and%20Sources/quick-tips-section.png)
-
-### 4. Supporting Someone Section
-
-**Actionable advice for helping others, with expandable cards and clear ARIA accessibility.**
-![Collapsible Card Section](Documentation/Research,%20Credit%20and%20Sources/supporting-section.png)
-
-### 5. Modern Footer
-
-**High-contrast, accessible footer with legal links, social icons, and location branding.**
-![Modern, High Contrast Footer](Documentation/Research,%20Credit%20and%20Sources/Modern-footer.png)
 
 ---
 
