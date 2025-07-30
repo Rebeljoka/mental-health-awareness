@@ -1,6 +1,6 @@
 # ðŸš€ Mental Health Awareness Website
 
-> Everything you need to create a reliable, scalable single-page web application.
+> Everything you need to create a reliable, scalable single-page web application.  
 > A simple, supportive space to raise awareness about mental health through open-source collaboration.
 
 <div align="center">
@@ -180,20 +180,23 @@ Whether you're a developer, designer, writer, or someone with lived experience â
 ## ðŸ“š Attribution & Accreditation
 
 - **Favicons:** Generated with GitHub Copilot using the prompt "generate a favicon for a mental health website called Quiet Bloom".
-![Website Favicon](assets/favicons/android-chrome-512x512.png)
+
+<div align="center">
+  <img src="assets/favicons/android-chrome-512x512.png" alt="Website Favicon">
+</div>
 
 - **Hero Image:** Sourced from [altphotos.com](https://altphotos.com/photo/long-exposure-mysterious-pink-sea-209/)
 ![Hero Image](assets/images/hero-image.webp)
 
 - **Color Palette Research:**
-  - ![Color Hunt Pastel Palettes](https://colorhunt.co/palettes/pastel)
-  - ![Paper Heart Design - Peaceful Palettes](https://paperheartdesign.com/blog/color-palette-peaceful-palettes)
+  - [Color Hunt Pastel Palettes](https://colorhunt.co/palettes/pastel)
+  - [Paper Heart Design - Peaceful Palettes](https://paperheartdesign.com/blog/color-palette-peaceful-palettes)
 
 - **Fonts:** Google Fonts (Oooh Baby, Poiret One)
-- ![Oooh Baby, Poiret One](https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Poiret+One&display=swap)
+  - [Oooh Baby, Poiret One](https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Poiret+One&display=swap)
 
 - **Accessibility:**
-![WCAG AA Contrast Checker](https://webaim.org/resources/contrastchecker/?fcolor=000000&bcolor=2E819D)
+  - [WCAG AA Contrast Checker](https://webaim.org/resources/contrastchecker/?fcolor=000000&bcolor=2E819D)
 
 - **Card Image Content:**
   - Daily Mindfulness: [Unsplash Illustration](https://unsplash.com/illustrations/two-women-meditate-in-the-butterfly-pose-TRI4BogkWU4)
@@ -234,6 +237,33 @@ Whether you're a developer, designer, writer, or someone with lived experience â
 *AI Generated Aria Attributes to Supporting Section*
 ![AI Generated Bug Scanning](Documentation/use%20of%20AI/bug-fix-gramatical-error.png)
 *AI Generated Bug Scanning, Broken Links, Unused CSS, Gramatical Errors*
+
+---
+
+<div align="center">
+  <img src="Documentation/use%20of%20AI/3ai-generated-text.png" alt="AI Generated Text" width="500">
+  <p><em>AI Generated Text</em></p>
+
+  <img src="Documentation/use%20of%20AI/1ai-css-animation-to-header.png" alt="AI Generated Animation 1" width="500">
+  <img src="Documentation/use%20of%AI/2ainmation-to-header.png" alt="AI Generated Animation 2" width="500">
+  <p><em>AI Generated Animation For Header</em></p>
+
+  <img src="Documentation/use%20of%AI/4ai-gen-js-card-carousel.png" alt="AI Generated JS for Card 1" width="500">
+  <img src="Documentation/use%20of%AI/5ai-gen-js-for-card-carousel.png" alt="AI Generated JS for Card 2" width="500">
+  <p><em>AI Generated JavaScript Code for Card Carousel</em></p>
+
+  <img src="Documentation/use%20of%AI/6ai-generated-checklist-for-quick-tips-section.png" alt="AI Generated Checklist" width="500">
+  <p><em>AI Generated Checklist Within Quick Tips Carousel</em></p>
+
+  <img src="Documentation/use%20of%AI/7ai-gen-js-anchor-link-from-supporting-accordion.png" alt="AI Generated Anchor Link" width="500">
+  <p><em>AI Generated Anchor Links + JavaScript for Supporting Section</em></p>
+
+  <img src="Documentation/use%20of%AI/8ai-gen-aria-attributes-added-where-necessary.png" alt="AI Generated Aria Attributes" width="500">
+  <p><em>AI Generated Aria Attributes to Supporting Section</em></p>
+
+  <img src="Documentation/use%20of%AI/bug-fix-gramatical-error.png" alt="AI Generated Bug Scanning" width="500">
+  <p><em>AI Generated Bug Scanning, Broken Links, Unused CSS, Grammatical Errors</em></p>
+</div>
 
 ---
 
