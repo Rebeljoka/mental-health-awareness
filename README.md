@@ -93,7 +93,7 @@ Quiet Bloom is a modern, accessible single-page web application dedicated to pro
 (![Website Favicon](assets/favicons/android-chrome-512x512.png))
 
 - **Hero Image:** Sourced from [altphotos.com](https://altphotos.com/photo/long-exposure-mysterious-pink-sea-209/)
-(![Hero Image](assets/images/hero-image.webp))
+(![Hero Image](assets/images/hero-image.webp)
 
 - **Color Palette Research:**
   - [Color Hunt Pastel Palettes](https://colorhunt.co/palettes/pastel)
