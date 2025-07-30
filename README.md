@@ -90,7 +90,7 @@ Quiet Bloom is a modern, accessible single-page web application dedicated to pro
 ## 📚 Attribution & Accreditation
 
 - **Favicons:** Generated with GitHub Copilot using the prompt "generate a favicon for a mental health website called Quiet Bloom".
-(![Website Favicon](assets/favicons/android-chrome-512x512.png))
+![Website Favicon](assets/favicons/android-chrome-512x512.png)
 
 - **Hero Image:** Sourced from [altphotos.com](https://altphotos.com/photo/long-exposure-mysterious-pink-sea-209/)
 ![Hero Image](assets/images/hero-image.webp)
