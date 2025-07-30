@@ -1,7 +1,8 @@
 <h1 style="text-align: center; margin-top: 40px; padding-bottom: 40px; font-size: 40px;">🚀 Mental Health Awareness Website</h1>
 
 > Everything you need to create a reliable, scalable single-page web application.  
-> A simple, supportive space to raise awareness about mental health through open-source collaboration.
+> A simple, supportive space to raise awareness about mental health through open-source collaboration.  
+> If you'd like to visit my website [Click Me!](https://rebeljoka.github.io/mental-health-awareness/index.html)
 
 <div align="center" style="margin-top: 40px; padding-bottom: 40px;">
   <code><img width="70" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/html.png" alt="HTML" title="HTML"/></code>
@@ -257,3 +258,5 @@ Whether you're a developer, designer, writer, or someone with lived experience �
 GitHub Copilot and generative AI tools played a key role in the development of Quiet Bloom. AI was used to generate accessible HTML, CSS, and JavaScript components, suggest performance and UX improvements, and identify and resolve bugs throughout the build. This accelerated the workflow, allowing more time to focus on user experience, accessibility, and content quality. All AI-generated code and suggestions were carefully reviewed and adapted to fit the project’s unique requirements, ensuring a professional and maintainable result. Leaving me plenty of time to edit this readme, collect and organise my documentation and complete the wireframe for the site.
 
 For more details, see the full documentation and code comments.
+
+If you'd like to visit my website [Click Me!](https://rebeljoka.github.io/mental-health-awareness/index.html)
