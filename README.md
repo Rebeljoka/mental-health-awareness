@@ -1,7 +1,7 @@
 # 🚀 Mental Health Awareness Website
 
 > Everything you need to create a reliable, scalable single-page web application.
->> A simple, supportive space to raise awareness about mental health through open-source collaboration.
+> A simple, supportive space to raise awareness about mental health through open-source collaboration.
 
 <div align="center">
   <code><img width="70" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/html.png" alt="HTML" title="HTML"/></code>
