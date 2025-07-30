@@ -31,7 +31,7 @@ Quiet Bloom is a modern, accessible single-page web application dedicated to pro
 ![Website Wireframe](Documentation/Research,%20Credit%20and%20Sources/mental-health-awareness-wireframe.png)
 *Initial Website Design Planned on Wireframes*
 
-![Color Palette Option 1](Documentation/Research,%20Credit%20and%20Sources/col-choice-1.png)
+![Color Palette Option 1](Documentation/Research,%20Credit%20and%20Sources/Col-choice-1.png)
 *First Color Palette Choice*
 ![Color Palette Option 2](Documentation/Research,%20Credit%20and%20Sources/col-choice-2.png)
 *Second Color Palette Choice*
