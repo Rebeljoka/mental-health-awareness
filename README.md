@@ -133,5 +133,11 @@ Quiet Bloom is a modern, accessible single-page web application dedicated to pro
 [!AI Generated Text](Documentation/use%20of%20AI/3ai-generated-text.png)
 [!AI Generated Animation](Documentation/use%20of%20AI/1ai-css-animation-to-header.png)
 [!AI Generated Animation](Documentation/use%20of%20AI/2ainmation-to-header.png)
+[AI Generated Javascript for Card](Documentation/use%20of%20AI/4ai-gen-js-card-carousel.png)
+[AI Generated Javascript for Card](Documentation/use%20of%20AI/5ai-gen-js-for-card-carousel.png)
+[AI Generated checklist for Quick Tips](Documentation/use%20of%20AI/6ai-generated-checklist-for-quick-tips-section.png)
+[AI Generated Anchor links + Js for supporing section to Accordion](Documentation/use%20of%20AI/7ai-gen-js-anchor-link-from-supporting-accordion.png)
+[AI Generated Aria Attributes to Supporting Section](Documentation/use%20of%20AI/8ai-gen-aria-attributes-added-where-necessary.png)
+[AI Generated Bug Scanning](Documentation/use%20of%20AI/bug-fix-gramatical-error.png)
 
 For more details, see the full documentation and code comments.
