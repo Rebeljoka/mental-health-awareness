@@ -4,14 +4,14 @@
 > Everything you need to create a reliable, scalable single-page web application.
 
 <div align="center">
-	<code><img width="70" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/html.png" alt="HTML" title="HTML"/></code>
-	<code><img width="70" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/css.png" alt="CSS" title="CSS"/></code>
-	<code><img width="70" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/bootstrap.png" alt="Bootstrap" title="Bootstrap"/></code>
-	<code><img width="70" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/javascript.png" alt="JavaScript" title="JavaScript"/></code>
-	<code><img width="70" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/visual_studio_code.png" alt="Visual Studio Code" title="Visual Studio Code"/></code>
-	<code><img width="70" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/git.png" alt="Git" title="Git"/></code>
-	<code><img width="70" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/github.png" alt="GitHub" title="GitHub"/></code>
-	<code><img width="70" <img src="https://iconic-api.onrender.com/dark/copilot" alt="Copilot" title="Copilot"/></code>
+  <code><img width="70" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/html.png" alt="HTML" title="HTML"/></code>
+  <code><img width="70" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/css.png" alt="CSS" title="CSS"/></code>
+  <code><img width="70" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/bootstrap.png" alt="Bootstrap" title="Bootstrap"/></code>
+  <code><img width="70" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/javascript.png" alt="JavaScript" title="JavaScript"/></code>
+  <code><img width="70" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/visual_studio_code.png" alt="Visual Studio Code" title="Visual Studio Code"/></code>
+  <code><img width="70" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/git.png" alt="Git" title="Git"/></code>
+  <code><img width="70" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/github.png" alt="GitHub" title="GitHub"/></code>
+  <code><img width="70" <img src="https://iconic-api.onrender.com/dark/copilot" alt="Copilot" title="Copilot"/></code>
 </div>
 
 ---
@@ -153,6 +153,11 @@ Quiet Bloom is a modern, accessible single-page web application dedicated to pro
 ![AI Generated Aria Attributes to Supporting Section](Documentation/use%20of%20AI/8ai-gen-aria-attributes-added-where-necessary.png)
 *AI Generated Aria Attributes to Supporting Section*
 ![AI Generated Bug Scanning](Documentation/use%20of%20AI/bug-fix-gramatical-error.png)
-*AI Generated Bug Scanning, Spell Correction, Trailing Slashes, Inconsistancies*
+
+---
+
+## 🤖 AI-Assisted Development Reflection
+
+GitHub Copilot and generative AI tools played a key role in the development of Quiet Bloom. AI was used to generate accessible HTML, CSS, and JavaScript components, suggest performance and UX improvements, and identify and resolve bugs throughout the build. This accelerated the workflow, allowing more time to focus on user experience, accessibility, and content quality. All AI-generated code and suggestions were carefully reviewed and adapted to fit the project’s unique requirements, ensuring a professional and maintainable result. Leaving me plenty of time to edit this readme, collect and organise my documentation and complete the wireframe for the site.
 
 For more details, see the full documentation and code comments.
