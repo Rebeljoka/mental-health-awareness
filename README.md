@@ -67,6 +67,24 @@ Quiet Bloom is a modern, accessible single-page web application dedicated to pro
 
 ---
 
+## ⊹ ࣪ ﹏𓊝﹏𓂁﹏⊹ ࣪ ˖Lighthouse Results
+![Desktop Lighthouse  Results](Documentation/Research,%20Credit%20and%20Sources/lighouse-generator-computer.png)
+*Desktop Results.*
+
+![Mobile Lighthouse  Results](Documentation/Research,%20Credit%20and%20Sources/lighthouse-gen-mobile.png)
+*Mobile Results.*
+
+---
+
+## 👨‍💻 Code Validation Results
+![HTML Validator Results](Documentation/Research,%20Credit%20and%20Sources/html-validator.png)
+*HTML Results.*
+
+![CSS Validator Results](Documentation/Research,%20Credit%20and%20Sources/css-validator.png)
+*CSS Results.*
+
+---
+
 ## 📚 Attribution
 
 - **Icons:** [Font Awesome](https://fontawesome.com/) (MIT License)
