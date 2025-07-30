@@ -131,6 +131,30 @@ Quiet Bloom is a modern, accessible single-page web application dedicated to pro
 
 ---
 
+## 🤝 Contributing
+
+We believe that gentle design and thoughtful collaboration can make a real difference.
+
+Whether you're a developer, designer, writer, or someone with lived experience — your voice matters. Contributions can be technical, creative, or emotional. Every addition helps nurture a space where mental health is met with empathy and clarity.
+
+### Ways to Contribute
+- 🧠 Share ideas for new features or calming tools
+- 🎨 Refine design elements to enhance accessibility and emotional tone
+- 📝 Improve documentation or add affirming content
+- 🐛 Report bugs or suggest gentle improvements
+
+### Getting Started
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/YourIdea`)
+3. Commit your changes (`git commit -m 'Add something meaningful'`)
+4. Push to the branch (`git push origin feature/YourIdea`)
+5. Open a pull request with a kind note
+
+> Contributions are welcomed with gratitude and reviewed with care. There’s no rush — just rhythm.
+
+---
+
+
 ## ⊹ ࣪ ﹏𓊝﹏𓂁﹏⊹ ࣪ ˖ Lighthouse Results
 
 - **Desktop Results.**
