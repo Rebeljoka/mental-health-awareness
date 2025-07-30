@@ -164,6 +164,7 @@ Quiet Bloom is a modern, accessible single-page web application dedicated to pro
 ![AI Generated Aria Attributes to Supporting Section](Documentation/use%20of%20AI/8ai-gen-aria-attributes-added-where-necessary.png)
 *AI Generated Aria Attributes to Supporting Section*
 ![AI Generated Bug Scanning](Documentation/use%20of%20AI/bug-fix-gramatical-error.png)
+*AI Generated Bug Scanning, Broken Links, Unused CSS, Gramatical Errors*
 
 ---
 
