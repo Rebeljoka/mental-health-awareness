@@ -112,6 +112,21 @@ Quiet Bloom is a modern, accessible single-page web application dedicated to pro
 **User Stories**
 ![User Stories](Documentation/Research,%20Credit%20and%20Sources/user-stories.png)
 
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <div style="text-align: center;">
+    <img src="Documentation/Research,%20Credit%20and%20Sources/Col-choice-1.png" alt="Soft peach palette" width="150" />
+    <div><strong>First Color Palette Choice</strong></div>
+  </div>
+  <div style="text-align: center;">
+    <img src="Documentation/Research,%20Credit%20and%20Sources/col-choice-2.png" alt="pink to blue palette" width="150" />
+    <div><strong>Second Color Palette Choice</strong></div>
+  </div>
+  <div style="text-align: center;">
+    <img src="Documentation/Research,%20Credit%20and%20Sources/col-choice-final.png" alt="Pastel dark to lightl palette" width="150" />
+    <div><strong>Final Color Palette Choice</strong></div>
+  </div>
+</div>
+
 ### 📦 Deployment Steps
 
 1. **Clone the repository:**
