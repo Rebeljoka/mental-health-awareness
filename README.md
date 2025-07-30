@@ -67,7 +67,8 @@ Quiet Bloom is a modern, accessible single-page web application dedicated to pro
 
 ---
 
-## ⊹ ࣪ ﹏𓊝﹏𓂁﹏⊹ ࣪ ˖Lighthouse Results
+## ⊹ ࣪ ﹏𓊝﹏𓂁﹏⊹ ࣪ ˖ Lighthouse Results
+
 ![Desktop Lighthouse  Results](Documentation/Research,%20Credit%20and%20Sources/lighouse-generator-computer.png)
 *Desktop Results.*
 
@@ -89,17 +90,22 @@ Quiet Bloom is a modern, accessible single-page web application dedicated to pro
 ## 📚 Attribution & Accreditation
 
 - **Favicons:** Generated with GitHub Copilot using the prompt "generate a favicon for a mental health website called Quiet Bloom".
+(![Website Favicon](assets/favicons/android-chrome-512x512.png))
 
 - **Hero Image:** Sourced from [altphotos.com](https://altphotos.com/photo/long-exposure-mysterious-pink-sea-209/)
+(![Hero Image](assets/images/hero-image.webp))
 
 - **Color Palette Research:**
   - [Color Hunt Pastel Palettes](https://colorhunt.co/palettes/pastel)
   - [Paper Heart Design - Peaceful Palettes](https://paperheartdesign.com/blog/color-palette-peaceful-palettes)
+(![Color Palette Option 1](Documentation/Research,%20Credit%20and%20Sources/Col-choice-1.png)
+(![Color Palette Option 2](Documentation/Research,%20Credit%20and%20Sources/Col-choice-2.png)
+(![Color Palette Option Final](Documentation/Research,%20Credit%20and%20Sources/Col-choice-final.png)
 
 - **Fonts:** Google Fonts (Oooh Baby, Poiret One)
 
 - **Accessibility:**
-  - [WCAG AA Contrast Checker](https://webaim.org/resources/contrastchecker/?fcolor=000000&bcolor=2E819D)
+![WCAG AA Contrast Checker](https://webaim.org/resources/contrastchecker/?fcolor=000000&bcolor=2E819D)
 
 - **Card Image Content:**
   - Daily Mindfulness: [Unsplash Illustration](https://unsplash.com/illustrations/two-women-meditate-in-the-butterfly-pose-TRI4BogkWU4)
