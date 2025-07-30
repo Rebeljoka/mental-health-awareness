@@ -159,7 +159,7 @@ Whether you're a developer, designer, writer, or someone with lived experience �
 
 <div align="center">
 
-| **HTML Vaildator** | **CSS Vaildator** |
+| **Desktop Lighhouse Results** | **Mobile Lighthouse Results** |
 |:---------------------------:|:-------------------------:|
 | <img src="Documentation/Research,%20Credit%20and%20Sources/lighouse-generator-computer.png" alt="Lighthouse Desktop Results" width="498"/> | <img src="Documentation/Research,%20Credit%20and%20Sources/lighthouse-gen-mobile.png" alt="Lighthouse Mobile Results" width="500"/> |
 
@@ -223,7 +223,7 @@ Whether you're a developer, designer, writer, or someone with lived experience �
 
 ---
 
-## 📚 Use Of AI
+## 🤖🧑🏽‍💻 Use Of AI
 
 <div align="center">
   <img src="Documentation/use-of-AI/3ai-generated-text.png" alt="AI Generated Text" width="500">
