@@ -100,32 +100,16 @@ Quiet Bloom is a modern, accessible single-page web application dedicated to pro
 **Initial Website Design Planned on Wireframes**
 ![Website Wireframe](Documentation/Research,%20Credit%20and%20Sources/mental-health-awareness-wireframe.png)
 
-**First Color Palette Choice**
-![Color Palette Option 1](Documentation/Research,%20Credit%20and%20Sources/Col-choice-1.png)
+<div align="center">
 
-**Second Color Palette Choice**
-![Color Palette Option 2](Documentation/Research,%20Credit%20and%20Sources/col-choice-2.png)
+| **First Color Palette Option** | **Second Color Palette Option** | **Final Color Palette Option** |
+|:------------------------------------:|:------------------------------------------:|:---------------------------:|
+| <img src="Documentation/Research,%20Credit%20and%20Sources/Col-choice-1.png" alt="First Color Palette Option" width="440"/> | <img src="Documentation/Research,%20Credit%20and%20Sources/col-choice-2.png" alt="Second Color Palette Option" width="450"/> | <img src="Documentation/Research,%20Credit%20and%20Sources/col-choice-final.png" alt="Final Color Palette Option" width="300"/> |
 
-**Final Color Palette Choice**
-![Color Palette Option Final](Documentation/Research,%20Credit%20and%20Sources/col-choice-final.png)
+</div>
 
 **User Stories**
 ![User Stories](Documentation/Research,%20Credit%20and%20Sources/user-stories.png)
-
-<div style="display: flex; justify-content: center; gap: 20px;">
-  <div style="text-align: center;">
-    <img src="Documentation/Research,%20Credit%20and%20Sources/Col-choice-1.png" alt="Soft peach palette" width="150" />
-    <div><strong>First Color Palette Choice</strong></div>
-  </div>
-  <div style="text-align: center;">
-    <img src="Documentation/Research,%20Credit%20and%20Sources/col-choice-2.png" alt="pink to blue palette" width="150" />
-    <div><strong>Second Color Palette Choice</strong></div>
-  </div>
-  <div style="text-align: center;">
-    <img src="Documentation/Research,%20Credit%20and%20Sources/col-choice-final.png" alt="Pastel dark to lightl palette" width="150" />
-    <div><strong>Final Color Palette Choice</strong></div>
-  </div>
-</div>
 
 ### 📦 Deployment Steps
 
@@ -153,12 +137,14 @@ We believe that gentle design and thoughtful collaboration can make a real diffe
 Whether you're a developer, designer, writer, or someone with lived experience — your voice matters. Contributions can be technical, creative, or emotional. Every addition helps nurture a space where mental health is met with empathy and clarity.
 
 ### Ways to Contribute
+
 - 🧠 Share ideas for new features or calming tools
 - 🎨 Refine design elements to enhance accessibility and emotional tone
 - 📝 Improve documentation or add affirming content
 - 🐛 Report bugs or suggest gentle improvements
 
 ### Getting Started
+
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/YourIdea`)
 3. Commit your changes (`git commit -m 'Add something meaningful'`)
@@ -169,14 +155,15 @@ Whether you're a developer, designer, writer, or someone with lived experience �
 
 ---
 
-
 ## ⊹ ࣪ ﹏𓊝﹏𓂁﹏⊹ ࣪ ˖ Lighthouse Results
 
-- **Desktop Results.**
-![Desktop Lighthouse  Results](Documentation/Research,%20Credit%20and%20Sources/lighouse-generator-computer.png)
+<div align="center">
 
-- **Mobile Results.**
-![Mobile Lighthouse  Results](Documentation/Research,%20Credit%20and%20Sources/lighthouse-gen-mobile.png)
+| **HTML Vaildator** | **CSS Vaildator** |
+|:---------------------------:|:-------------------------:|
+| <img src="Documentation/Research,%20Credit%20and%20Sources/lighouse-generator-computer.png" alt="Lighthouse Desktop Results" width="300"/> | <img src="Documentation/Research,%20Credit%20and%20Sources/lighthouse-gen-mobile.png" alt="Lighthouse Mobile Results" width="440"/> |
+
+</div>
 
 ---
 
