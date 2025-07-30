@@ -1,4 +1,4 @@
-# 🚀 Mental Health Awareness Website - Checklist
+# 🚀 Mental Health Awareness Website
 
 > Build. Test. Ship. Improve.  
 > Everything you need to create a reliable, scalable single-page web application.
@@ -26,6 +26,17 @@ Quiet Bloom is a modern, accessible single-page web application dedicated to pro
 - **Evidence-Based Content:** Actionable tips, checklists, and support strategies for common mental health conditions.
 - **Smooth Navigation:** Sticky navbar, anchor offset, and robust mobile experience.
 - **Support for Others:** Dedicated section for helping friends, family, or colleagues.
+
+### Initial Design Phase
+![Website Wireframe](Documentation/Research,%20Credit%20and%20Sources/mental-health-awareness-wireframe.png)
+*Initial Website Design Planned on Wireframes*
+
+![Color Palette Option 1](Documentation/Research,%20Credit%20and%20Sources/col-choice-1.png)
+*First Color Palette Choice*
+![Color Palette Option 2](Documentation/Research,%20Credit%20and%20Sources/col-choice-2.png)
+*Second Color Palette Choice*
+![Color Palette Option Final](Documentation/Research,%20Credit%20and%20Sources/col-choice-final.png)
+*Final Color Palette Choice*
 
 ---
 
@@ -98,9 +109,6 @@ Quiet Bloom is a modern, accessible single-page web application dedicated to pro
 - **Color Palette Research:**
   - [Color Hunt Pastel Palettes](https://colorhunt.co/palettes/pastel)
   - [Paper Heart Design - Peaceful Palettes](https://paperheartdesign.com/blog/color-palette-peaceful-palettes)
-![Color Palette Option 1](Documentation/Research,%20Credit%20and%20Sources/col-choice-1.png)
-![Color Palette Option 2](Documentation/Research,%20Credit%20and%20Sources/col-choice-2.png)
-![Color Palette Option Final](Documentation/Research,%20Credit%20and%20Sources/col-choice-final.png)
 
 - **Fonts:** Google Fonts (Oooh Baby, Poiret One)
 
@@ -130,21 +138,21 @@ Quiet Bloom is a modern, accessible single-page web application dedicated to pro
 - **Framework:** [Bootstrap 5](https://getbootstrap.com/) (MIT License)
 - **Code:** All code is original or generated with the assistance of GitHub Copilot. No third-party code is used without attribution.
 
-[!AI Generated Text](Documentation/use%20of%20AI/3ai-generated-text.png)
+![!AI Generated Text](Documentation/use%20of%20AI/3ai-generated-text.png)
 *AI Generated Text*
-[!AI Generated Animation](Documentation/use%20of%20AI/1ai-css-animation-to-header.png)
-[!AI Generated Animation](Documentation/use%20of%20AI/2ainmation-to-header.png)
+![!AI Generated Animation](Documentation/use%20of%20AI/1ai-css-animation-to-header.png)
+![!AI Generated Animation](Documentation/use%20of%20AI/2ainmation-to-header.png)
 *AI Generated Animation For Header*
-[AI Generated Javascript for Card](Documentation/use%20of%20AI/4ai-gen-js-card-carousel.png)
-[AI Generated Javascript for Card](Documentation/use%20of%20AI/5ai-gen-js-for-card-carousel.png)
+![AI Generated Javascript for Card](Documentation/use%20of%20AI/4ai-gen-js-card-carousel.png)
+![AI Generated Javascript for Card](Documentation/use%20of%20AI/5ai-gen-js-for-card-carousel.png)
 *AI Generated Javascript Code for Card Carousel*
-[AI Generated checklist for Quick Tips](Documentation/use%20of%20AI/6ai-generated-checklist-for-quick-tips-section.png)
+![AI Generated checklist for Quick Tips](Documentation/use%20of%20AI/6ai-generated-checklist-for-quick-tips-section.png)
 *AI Generated Checklist Within Quick Tips Car Carousel*
-[AI Generated Anchor links + Js for supporing section to Accordion](Documentation/use%20of%20AI/7ai-gen-js-anchor-link-from-supporting-accordion.png)
+![AI Generated Anchor links + Js for supporing section to Accordion](Documentation/use%20of%20AI/7ai-gen-js-anchor-link-from-supporting-accordion.png)
 *AI Generated Anchor links + Js for supporing section to Accordion*
-[AI Generated Aria Attributes to Supporting Section](Documentation/use%20of%20AI/8ai-gen-aria-attributes-added-where-necessary.png)
+![AI Generated Aria Attributes to Supporting Section](Documentation/use%20of%20AI/8ai-gen-aria-attributes-added-where-necessary.png)
 *AI Generated Aria Attributes to Supporting Section*
-[AI Generated Bug Scanning](Documentation/use%20of%20AI/bug-fix-gramatical-error.png)
+![AI Generated Bug Scanning](Documentation/use%20of%20AI/bug-fix-gramatical-error.png)
 *AI Generated Bug Scanning, Spell Correction, Trailing Slashes, Inconsistancies*
 
 For more details, see the full documentation and code comments.
