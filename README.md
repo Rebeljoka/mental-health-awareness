@@ -19,15 +19,18 @@
 ## ☁️ Deployment & Project Overview
 
 ### Purpose
+
 Quiet Bloom is a modern, accessible single-page web application dedicated to promoting mental health awareness, support, and actionable resources. The site is designed to provide a safe, welcoming space for users to learn, reflect, and find practical guidance for themselves or others.
 
 ### User Value
+
 - **Accessible, Responsive Design:** Works seamlessly on all devices and for all users, including those using assistive technologies.
 - **Evidence-Based Content:** Actionable tips, checklists, and support strategies for common mental health conditions.
 - **Smooth Navigation:** Sticky navbar, anchor offset, and robust mobile experience.
 - **Support for Others:** Dedicated section for helping friends, family, or colleagues.
 
 ### Initial Design Phase
+
 ![Website Wireframe](Documentation/Research,%20Credit%20and%20Sources/mental-health-awareness-wireframe.png)
 *Initial Website Design Planned on Wireframes*
 
@@ -43,13 +46,17 @@ Quiet Bloom is a modern, accessible single-page web application dedicated to pro
 ## � Deployment Steps
 
 1. **Clone the repository:**
+
    ```sh
    git clone https://github.com/Rebeljoka/mental-health-awareness.git
    ```
+
 2. **Navigate to the project folder:**
+
    ```sh
    cd mental-health-awareness
    ```
+
 3. **Open `index.html` in your browser** or deploy to a static hosting platform (e.g., GitHub Pages, Netlify, Vercel).
 4. **No build step required** – all assets are ready to use.
 
@@ -61,18 +68,22 @@ Quiet Bloom is a modern, accessible single-page web application dedicated to pro
 *Welcoming introduction, calming visuals, and clear site purpose.*
 
 ### 2. Mental Health Accordion
+
 ![Accordion](Documentation/Research,%20Credit%20and%20Sources/mental-health-section.png)
 *Accessible, collapsible panels for key mental health conditions with concise explanations.*
 
 ### 3. Quick Tips Carousel
+
 ![Quick Tips Carousel](Documentation/Research,%20Credit%20and%20Sources/quick-tips-section.png)
 *Interactive carousel with daily wellness checklists and touch-friendly controls.*
 
 ### 4. Supporting Someone Section
+
 ![Collapsible Card Section](Documentation/Research,%20Credit%20and%20Sources/supporting-section.png)
 *Actionable advice for helping others, with expandable cards and clear ARIA accessibility.*
 
 ### 5. Modern Footer
+
 ![Modern, High Contrast Footer](Documentation/Research,%20Credit%20and%20Sources/Modern-footer.png)
 *High-contrast, accessible footer with legal links, social icons, and location branding.*
 
@@ -89,6 +100,7 @@ Quiet Bloom is a modern, accessible single-page web application dedicated to pro
 ---
 
 ## 👨‍💻 Code Validation Results
+
 ![HTML Validator Results](Documentation/Research,%20Credit%20and%20Sources/html-validator.png)
 *HTML Results.*
 
@@ -96,7 +108,6 @@ Quiet Bloom is a modern, accessible single-page web application dedicated to pro
 *CSS Results.*
 
 ---
-
 
 ## 📚 Attribution & Accreditation
 
