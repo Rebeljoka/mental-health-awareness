@@ -104,7 +104,7 @@ Quiet Bloom is a modern, accessible single-page web application dedicated to pro
 
 | **First Color Palette Option** | **Second Color Palette Option** | **Final Color Palette Option** |
 |:------------------------------------:|:------------------------------------------:|:---------------------------:|
-| <img src="Documentation/Research,%20Credit%20and%20Sources/Col-choice-1.png" alt="First Color Palette Option" width="440"/> | <img src="Documentation/Research,%20Credit%20and%20Sources/col-choice-2.png" alt="Second Color Palette Option" width="450"/> | <img src="Documentation/Research,%20Credit%20and%20Sources/col-choice-final.png" alt="Final Color Palette Option" width="300"/> |
+| <img src="Documentation/Research,%20Credit%20and%20Sources/col-choice-1.png" alt="First Color Palette Option" width="440"/> | <img src="Documentation/Research,%20Credit%20and%20Sources/col-choice-2.png" alt="Second Color Palette Option" width="450"/> | <img src="Documentation/Research,%20Credit%20and%20Sources/col-choice-final.png" alt="Final Color Palette Option" width="300"/> |
 
 </div>
 
