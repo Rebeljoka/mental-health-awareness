@@ -2,8 +2,16 @@
 
 > Everything you need to create a reliable, scalable single-page web application.  
 > A simple, supportive space to raise awareness about mental health through open-source collaboration.  
-> If you'd like to visit my website [Click Me!](https://rebeljoka.github.io/mental-health-awareness/index.html)
 
+<p align="center">
+  <a href="https://www.quietbloom.com" target="_blank">
+    <img src="assets/favicons/android-chrome-512x512.png" alt="Quiet Bloom" width="100" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <br>
+    <span style="font-size: 1.2em; font-weight: bold; color: #6a7f8c;">Visit Quiet Bloom</span>
+  </a>
+</p>
+
+<p align="center">Frameworks and Languages Used For This Project:</p>
 <div align="center" style="margin-top: 40px; padding-bottom: 40px;">
   <code><img width="70" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/html.png" alt="HTML" title="HTML"/></code>
   <code><img width="70" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/css.png" alt="CSS" title="CSS"/></code>
@@ -230,11 +238,11 @@ Whether you're a developer, designer, writer, or someone with lived experience â
   <img src="Documentation/use-of-AI/3ai-generated-text.png" alt="AI Generated Text" width="500">
   <p><em>AI Generated Text</em></p>
 
-  <img src="Documentation/use-of-AI/1ai-css-animation-to-header.png" alt="AI Generated Animation 1" width="500">
+  <img src="Documentation/use-of-AI/1ai-css-animation-to-header.png" alt="AI Generated Animation 1" width="430">
   <img src="Documentation/use-of-AI/2ainmation-to-header.png" alt="AI Generated Animation 2" width="500">
   <p><em>AI Generated Animation For Header</em></p>
 
-  <img src="Documentation/use-of-AI/4ai-gen-js-card-carousel.png" alt="AI Generated JS for Card 1" width="500">
+  <img src="Documentation/use-of-AI/4ai-gen-js-card-carousel.png" alt="AI Generated JS for Card 1" width="470">
   <img src="Documentation/use-of-AI/5ai-gen-js-for-card-carousel.png" alt="AI Generated JS for Card 2" width="500">
   <p><em>AI Generated JavaScript Code for Card Carousel</em></p>
 
@@ -259,4 +267,10 @@ GitHub Copilot and generative AI tools played a key role in the development of Q
 
 For more details, see the full documentation and code comments.
 
-If you'd like to visit my website [Click Me!](https://rebeljoka.github.io/mental-health-awareness/index.html)
+<p align="center">
+  <a href="https://www.quietbloom.com" target="_blank">
+    <img src="assets/favicons/android-chrome-512x512.png" alt="Quiet Bloom" width="100" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <br>
+    <span style="font-size: 1.2em; font-weight: bold; color: #6a7f8c;">Visit Quiet Bloom</span>
+  </a>
+</p>
