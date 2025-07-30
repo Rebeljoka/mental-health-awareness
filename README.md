@@ -161,7 +161,7 @@ Whether you're a developer, designer, writer, or someone with lived experience â
 
 | **HTML Vaildator** | **CSS Vaildator** |
 |:---------------------------:|:-------------------------:|
-| <img src="Documentation/Research,%20Credit%20and%20Sources/lighouse-generator-computer.png" alt="Lighthouse Desktop Results" width="300"/> | <img src="Documentation/Research,%20Credit%20and%20Sources/lighthouse-gen-mobile.png" alt="Lighthouse Mobile Results" width="300"/> |
+| <img src="Documentation/Research,%20Credit%20and%20Sources/lighouse-generator-computer.png" alt="Lighthouse Desktop Results" width="498"/> | <img src="Documentation/Research,%20Credit%20and%20Sources/lighthouse-gen-mobile.png" alt="Lighthouse Mobile Results" width="500"/> |
 
 </div>
 
