@@ -4,7 +4,7 @@
 > A simple, supportive space to raise awareness about mental health through open-source collaboration.  
 
 <p align="center">
-  <a href="https://www.quietbloom.com" target="_blank">
+  <a href="https://rebeljoka.github.io/mental-health-awareness/index.html" target="_blank">
     <img src="assets/favicons/android-chrome-512x512.png" alt="Quiet Bloom" width="100" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     <br>
     <span style="font-size: 1.2em; font-weight: bold; color: #6a7f8c;">Visit Quiet Bloom</span>
@@ -268,7 +268,7 @@ GitHub Copilot and generative AI tools played a key role in the development of Q
 For more details, see the full documentation and code comments.
 
 <p align="center">
-  <a href="https://www.quietbloom.com" target="_blank">
+  <a href="https://rebeljoka.github.io/mental-health-awareness/index.html" target="_blank">
     <img src="assets/favicons/android-chrome-512x512.png" alt="Quiet Bloom" width="100" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     <br>
     <span style="font-size: 1.2em; font-weight: bold; color: #6a7f8c;">Visit Quiet Bloom</span>
