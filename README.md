@@ -16,79 +16,65 @@
 
 ---
 
-## 🧠 Front-End Build
+## ☁️ Deployment & Project Overview
 
-Craft a responsive, accessible one-page site with smooth UX and clean design.
+### Purpose
+Quiet Bloom is a modern, accessible single-page web application dedicated to promoting mental health awareness, support, and actionable resources. The site is designed to provide a safe, welcoming space for users to learn, reflect, and find practical guidance for themselves or others.
 
-### ✅ Checklist
-
-- [ ] Cohesive one-page layout with navigation and structured sections  
-- [ ] Accessibility: color contrast, alt text for media  
-- [ ] Responsive design via media queries, Flexbox/Grid, or Bootstrap  
-- [ ] Semantic HTML tags for structured readability  
-- [ ] Intuitive user interactions (e.g., play/pause with feedback)
-
----
-
-## 🧪 Testing & Validation
-
-Verify across devices and tools to make sure the build performs as expected.
-
-### ✅ Checklist
-
-- [ ] HTML/CSS pass W3C and Jigsaw validation (0 errors)  
-- [ ] Layout adapts to all screen sizes  
-- [ ] Semantic markup supports accessibility and SEO  
-- [ ] Navigation remains smooth on desktop and mobile
+### User Value
+- **Accessible, Responsive Design:** Works seamlessly on all devices and for all users, including those using assistive technologies.
+- **Evidence-Based Content:** Actionable tips, checklists, and support strategies for common mental health conditions.
+- **Smooth Navigation:** Sticky navbar, anchor offset, and robust mobile experience.
+- **Support for Others:** Dedicated section for helping friends, family, or colleagues.
 
 ---
 
-## ☁️ Deployment
+## � Deployment Steps
 
-Publish with confidence. Final version matches development, no loose ends.
-
-### ✅ Checklist
-
-- [ ] Deployed to cloud platform (GitHub Pages / Netlify / Vercel)  
-- [ ] Codebase synced to GitHub repo with clear commit history  
-- [ ] No commented-out or unused code in final version  
-- [ ] All internal links and interactions function as intended
-
----
-
-## 📚 Maintainability
-
-Future-proof with strong documentation and clean versioning.
-
-### ✅ Checklist
-
-- [ ] `README.md` includes project purpose, value, and setup/deployment instructions  
-- [ ] Screenshots included (compressed + captioned)  
-- [ ] Clear and ethical attribution for reused assets/code  
-- [ ] Folder/file naming follows a consistent convention
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/Rebeljoka/mental-health-awareness.git
+   ```
+2. **Navigate to the project folder:**
+   ```sh
+   cd mental-health-awareness
+   ```
+3. **Open `index.html` in your browser** or deploy to a static hosting platform (e.g., GitHub Pages, Netlify, Vercel).
+4. **No build step required** – all assets are ready to use.
 
 ---
 
-## 🧩 Retrospective & Reflection
+## ✨ Features & Screenshots
 
-Improve by analyzing your development decisions—what worked, what didn’t, and why.
+### 1. Hero Section
+![Hero Section](Documentation/Research, Credit and Sources/hero-section.png)
+*Welcoming introduction, calming visuals, and clear site purpose.*
 
-### ✅ Checklist
+### 2. Mental Health Accordion
+![Accordion](Documentation/Research, Credit and Sources/mental-health-section.png)
+*Accessible, collapsible panels for key mental health conditions with concise explanations.*
 
-- [ ] Honest evaluation of design/dev decisions  
-- [ ] Actionable suggestions for future iterations  
-- [ ] Reflection connects directly to build outcomes  
-- [ ] Structured writing with clear sections and professional tone
-- [ ] Demonstrates strategic use of AI for generating code aligned with project objectives.
+### 3. Quick Tips Carousel
+![Quick Tips Carousel](Documentation/Research, Credit and Sources/quick-tips-section.png)
+*Interactive carousel with daily wellness checklists and touch-friendly controls.*
+
+### 4. Supporting Someone Section
+![Collapsible Card Section](Documentation/Research, Credit and Sources/supporting-section.png)
+*Actionable advice for helping others, with expandable cards and clear ARIA accessibility.*
+
+### 5. Modern Footer
+![Modern, High Contrast Footer](Documentation/Research, Credit and Sources/Modern-footer.png)
+*High-contrast, accessible footer with legal links, social icons, and location branding.*
 
 ---
 
-## 🎯 Bonus Tips
+## 📚 Attribution
 
-- [ ] Use badges for build status, license, and contributors  
-- [ ] Consider GitHub Actions for auto-linting and deployment  
-- [ ] Add issue templates or pull request guidelines if collaborators are expected  
-- [ ] Include a live demo link near the top for quick preview
-- [ ] Brief reflection in README.md on key decisions where AI was used to generate code, focusing on the outcomes rather than detailed prompts or manual interventions.
+- **Icons:** [Font Awesome](https://fontawesome.com/) (MIT License)
+- **Images:** All images are original, royalty-free, or used with permission.
+- **Framework:** [Bootstrap 5](https://getbootstrap.com/) (MIT License)
+- **Code:** All code is original or generated with the assistance of GitHub Copilot. No third-party code is used without attribution.
 
 ---
+
+For more details, see the full documentation and code comments.
