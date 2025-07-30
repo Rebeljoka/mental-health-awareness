@@ -25,21 +25,29 @@ Quiet Bloom is a modern, accessible single-page web application dedicated to pro
 ### User Value
 
 - **Accessible, Responsive Design:** Works seamlessly on all devices and for all users, including those using assistive technologies.
+
 - **Evidence-Based Content:** Actionable tips, checklists, and support strategies for common mental health conditions.
+
 - **Smooth Navigation:** Sticky navbar, anchor offset, and robust mobile experience.
+
 - **Support for Others:** Dedicated section for helping friends, family, or colleagues.
 
 ### Initial Design Phase
 
+**Initial Website Design Planned on Wireframes**
 ![Website Wireframe](Documentation/Research,%20Credit%20and%20Sources/mental-health-awareness-wireframe.png)
-*Initial Website Design Planned on Wireframes*
 
+**First Color Palette Choice**
 ![Color Palette Option 1](Documentation/Research,%20Credit%20and%20Sources/Col-choice-1.png)
-*First Color Palette Choice*
+
+**Second Color Palette Choice**
 ![Color Palette Option 2](Documentation/Research,%20Credit%20and%20Sources/col-choice-2.png)
-*Second Color Palette Choice*
+
+**Final Color Palette Choice**
 ![Color Palette Option Final](Documentation/Research,%20Credit%20and%20Sources/col-choice-final.png)
-*Final Color Palette Choice*
+
+**User Stories**
+![User Stories](Documentation/Research,%20Credit%20and%20Sources/user-stories.png)
 
 ---
 
@@ -64,48 +72,50 @@ Quiet Bloom is a modern, accessible single-page web application dedicated to pro
 
 ## ✨ Features & Screenshots
 
+### 1. Responsive Header with WCAG support against color contrasts
+
+**Welcoming introduction, calming visuals, and clear site purpose.**
 ![Hero Section](Documentation/Research,%20Credit%20and%20Sources/hero-section.png)
-*Welcoming introduction, calming visuals, and clear site purpose.*
 
 ### 2. Mental Health Accordion
 
+**Accessible, collapsible panels for key mental health conditions with concise explanations.**
 ![Accordion](Documentation/Research,%20Credit%20and%20Sources/mental-health-section.png)
-*Accessible, collapsible panels for key mental health conditions with concise explanations.*
 
 ### 3. Quick Tips Carousel
 
+**Interactive carousel with daily wellness checklists and touch-friendly controls.**
 ![Quick Tips Carousel](Documentation/Research,%20Credit%20and%20Sources/quick-tips-section.png)
-*Interactive carousel with daily wellness checklists and touch-friendly controls.*
 
 ### 4. Supporting Someone Section
 
+**Actionable advice for helping others, with expandable cards and clear ARIA accessibility.**
 ![Collapsible Card Section](Documentation/Research,%20Credit%20and%20Sources/supporting-section.png)
-*Actionable advice for helping others, with expandable cards and clear ARIA accessibility.*
 
 ### 5. Modern Footer
 
+**High-contrast, accessible footer with legal links, social icons, and location branding.**
 ![Modern, High Contrast Footer](Documentation/Research,%20Credit%20and%20Sources/Modern-footer.png)
-*High-contrast, accessible footer with legal links, social icons, and location branding.*
 
 ---
 
 ## ⊹ ࣪ ﹏𓊝﹏𓂁﹏⊹ ࣪ ˖ Lighthouse Results
 
+- **Desktop Results.**
 ![Desktop Lighthouse  Results](Documentation/Research,%20Credit%20and%20Sources/lighouse-generator-computer.png)
-*Desktop Results.*
 
+- **Mobile Results.**
 ![Mobile Lighthouse  Results](Documentation/Research,%20Credit%20and%20Sources/lighthouse-gen-mobile.png)
-*Mobile Results.*
 
 ---
 
 ## 👨‍💻 Code Validation Results
 
+- **HTML Results**
 ![HTML Validator Results](Documentation/Research,%20Credit%20and%20Sources/html-validator.png)
-*HTML Results.*
 
+- **CSS Results**
 ![CSS Validator Results](Documentation/Research,%20Credit%20and%20Sources/css-validator.png)
-*CSS Results.*
 
 ---
 
@@ -118,10 +128,11 @@ Quiet Bloom is a modern, accessible single-page web application dedicated to pro
 ![Hero Image](assets/images/hero-image.webp)
 
 - **Color Palette Research:**
-  - [Color Hunt Pastel Palettes](https://colorhunt.co/palettes/pastel)
-  - [Paper Heart Design - Peaceful Palettes](https://paperheartdesign.com/blog/color-palette-peaceful-palettes)
+  - ![Color Hunt Pastel Palettes](https://colorhunt.co/palettes/pastel)
+  - ![Paper Heart Design - Peaceful Palettes](https://paperheartdesign.com/blog/color-palette-peaceful-palettes)
 
 - **Fonts:** Google Fonts (Oooh Baby, Poiret One)
+- ![Oooh Baby, Poiret One](https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Poiret+One&display=swap)
 
 - **Accessibility:**
 ![WCAG AA Contrast Checker](https://webaim.org/resources/contrastchecker/?fcolor=000000&bcolor=2E819D)
