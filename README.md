@@ -1,9 +1,9 @@
-# 🚀 Mental Health Awareness Website
+<h1 style="text-align: center; margin-top: 40px; padding-bottom: 40px; font-size: 40px;">🚀 Mental Health Awareness Website</h1>
 
 > Everything you need to create a reliable, scalable single-page web application.  
 > A simple, supportive space to raise awareness about mental health through open-source collaboration.
 
-<div align="center">
+<div align="center" style="margin-top: 40px; padding-bottom: 40px;">
   <code><img width="70" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/html.png" alt="HTML" title="HTML"/></code>
   <code><img width="70" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/css.png" alt="CSS" title="CSS"/></code>
   <code><img width="70" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/bootstrap.png" alt="Bootstrap" title="Bootstrap"/></code>
@@ -16,7 +16,7 @@
 
 ---
 
-## 🌸 Introduction
+<h2 style="font-size: 33px; padding-bottom:30px;">🌸 Introduction</h2>
 
 > “Mental health is not a destination, but a process. It's about how you drive, not where you're going.”  
 > — Noam Shpancer
@@ -33,7 +33,7 @@ Whether you're a developer, designer, or simply someone who cares, your presence
 
 ---
 
-## 🌼 Features
+<h2 style="font-size: 33px; padding-bottom: 30px;">🌼 Features</h2>
 
 Quiet Bloom’s Mental Health Awareness project offers tools and spaces designed to be as reassuring as they are informative — grounded in accessibility, emotional clarity, and gentle design.
 
@@ -79,13 +79,13 @@ Quiet Bloom’s Mental Health Awareness project offers tools and spaces designed
 
 ---
 
-## ☁️ Deployment & Project Overview
+<h2 style="font-size: 33px; padding-bottom: 30px;">☁️ Deployment & Project Overview</h2>
 
-### Purpose
+<h3 style="font-size:26px;">Purpose</h3>
 
 Quiet Bloom is a modern, accessible single-page web application dedicated to promoting mental health awareness, support, and actionable resources. The site is designed to provide a safe, welcoming space for users to learn, reflect, and find practical guidance for themselves or others.
 
-### User Value
+<h3 style="font-size:26px;">User Value</h3>
 
 - **Accessible, Responsive Design:** Works seamlessly on all devices and for all users, including those using assistive technologies.
 
@@ -95,7 +95,7 @@ Quiet Bloom is a modern, accessible single-page web application dedicated to pro
 
 - **Support for Others:** Dedicated section for helping friends, family, or colleagues.
 
-### Initial Design Phase
+<h3 style="font-size:26px;">Initial Design Phase</h3>
 
 **Initial Website Design Planned on Wireframes**
 ![Website Wireframe](Documentation/Research,%20Credit%20and%20Sources/mental-health-awareness-wireframe.png)
@@ -111,7 +111,7 @@ Quiet Bloom is a modern, accessible single-page web application dedicated to pro
 **User Stories**
 ![User Stories](Documentation/Research,%20Credit%20and%20Sources/user-stories.png)
 
-### 📦 Deployment Steps
+
 
 1. **Clone the repository:**
 
@@ -130,20 +130,20 @@ Quiet Bloom is a modern, accessible single-page web application dedicated to pro
 
 ---
 
-## 🤝 Contributing
+<h2 style="font-size: 33px; padding-bottom:30px;">🤝 Contributing</h2>
 
 We believe that gentle design and thoughtful collaboration can make a real difference.
 
 Whether you're a developer, designer, writer, or someone with lived experience — your voice matters. Contributions can be technical, creative, or emotional. Every addition helps nurture a space where mental health is met with empathy and clarity.
 
-### Ways to Contribute
+<h3 style="font-size:26px;">Ways to Contribute</h3>
 
 - 🧠 Share ideas for new features or calming tools
 - 🎨 Refine design elements to enhance accessibility and emotional tone
 - 📝 Improve documentation or add affirming content
 - 🐛 Report bugs or suggest gentle improvements
 
-### Getting Started
+<h3 style="font-size:26px;">Getting Started</h3>
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/YourIdea`)
@@ -155,7 +155,7 @@ Whether you're a developer, designer, writer, or someone with lived experience �
 
 ---
 
-## ⊹ ࣪ ﹏𓊝﹏𓂁﹏⊹ ࣪ ˖ Lighthouse Results
+<h2 style="font-size: 33px; padding-bottom:30px;"> ⊹ ࣪ ﹏𓊝﹏𓂁﹏⊹ ࣪ ˖ Lighthouse Results</h2>
 
 <div align="center">
 
@@ -167,7 +167,7 @@ Whether you're a developer, designer, writer, or someone with lived experience �
 
 ---
 
-## 👨‍💻 Code Validation Results
+<h2 style="font-size: 33px; padding-bottom:30px;">👨‍💻 Code Validation Results</h2>
 
 - **HTML Results**
 ![HTML Validator Results](Documentation/Research,%20Credit%20and%20Sources/html-validator.png)
@@ -177,7 +177,7 @@ Whether you're a developer, designer, writer, or someone with lived experience �
 
 ---
 
-## 📚 Attribution & Accreditation
+<h2 style="font-size: 33px; padding-bottom:30px;">📚 Attribution & Accreditation</h2>
 
 - **Favicons:** Generated with GitHub Copilot using the prompt "generate a favicon for a mental health website called Quiet Bloom".
 
@@ -223,7 +223,7 @@ Whether you're a developer, designer, writer, or someone with lived experience �
 
 ---
 
-## 🤖🧑🏽‍💻 Use Of AI
+<h2 style="font-size: 33px; padding-bottom:30px;">🤖🧑🏽‍💻 Use Of AI</h2>
 
 <div align="center">
   <img src="Documentation/use-of-AI/3ai-generated-text.png" alt="AI Generated Text" width="500">
@@ -252,7 +252,7 @@ Whether you're a developer, designer, writer, or someone with lived experience �
 
 ---
 
-## 🤖 AI-Assisted Development Reflection
+<h2 style="font-size: 33px; padding-bottom:30px;">🤖 AI-Assisted Development Reflection</h2>
 
 GitHub Copilot and generative AI tools played a key role in the development of Quiet Bloom. AI was used to generate accessible HTML, CSS, and JavaScript components, suggest performance and UX improvements, and identify and resolve bugs throughout the build. This accelerated the workflow, allowing more time to focus on user experience, accessibility, and content quality. All AI-generated code and suggestions were carefully reviewed and adapted to fit the project’s unique requirements, ensuring a professional and maintainable result. Leaving me plenty of time to edit this readme, collect and organise my documentation and complete the wireframe for the site.
 
