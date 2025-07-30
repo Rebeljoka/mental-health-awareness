@@ -98,9 +98,9 @@ Quiet Bloom is a modern, accessible single-page web application dedicated to pro
 - **Color Palette Research:**
   - [Color Hunt Pastel Palettes](https://colorhunt.co/palettes/pastel)
   - [Paper Heart Design - Peaceful Palettes](https://paperheartdesign.com/blog/color-palette-peaceful-palettes)
-![Color Palette Option 1](Documentation/Research,%20Credit%20and%20Sources/Col-choice-1.png)
-![Color Palette Option 2](Documentation/Research,%20Credit%20and%20Sources/Col-choice-2.png)
-![Color Palette Option Final](Documentation/Research,%20Credit%20and%20Sources/Col-choice-final.png)
+![Color Palette Option 1](Documentation/Research,%20Credit%20and%20Sources/col-choice-1.png)
+![Color Palette Option 2](Documentation/Research,%20Credit%20and%20Sources/col-choice-2.png)
+![Color Palette Option Final](Documentation/Research,%20Credit%20and%20Sources/col-choice-final.png)
 
 - **Fonts:** Google Fonts (Oooh Baby, Poiret One)
 
