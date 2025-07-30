@@ -130,4 +130,8 @@ Quiet Bloom is a modern, accessible single-page web application dedicated to pro
 - **Framework:** [Bootstrap 5](https://getbootstrap.com/) (MIT License)
 - **Code:** All code is original or generated with the assistance of GitHub Copilot. No third-party code is used without attribution.
 
+[!AI Generated Text](Documentation/use%20of%20AI/3ai-generated-text.png)
+[!AI Generated Animation](Documentation/use%20of%20AI/1ai-css-animation-to-header.png)
+[!AI Generated Animation](Documentation/use%20of%20AI/2ainmation-to-header.png)
+
 For more details, see the full documentation and code comments.
