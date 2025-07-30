@@ -51,7 +51,7 @@ Quiet Bloom is a modern, accessible single-page web application dedicated to pro
 
 ---
 
-## � Deployment Steps
+## 📦 Deployment Steps
 
 1. **Clone the repository:**
 
