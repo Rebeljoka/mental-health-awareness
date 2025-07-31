@@ -166,6 +166,8 @@ Quiet Bloom is a modern, accessible single-page web application dedicated to pro
 </table>
 </div>
 
+<h3 style="font-size:26px;">Deployment</h3>
+
 1. **Clone the repository:**
 
    ```sh
