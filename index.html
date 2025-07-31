@@ -28,8 +28,16 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./assets/css/styles.css">
 
+    <!-- Preload critical CSS -->
+    <link rel="preload" as="style" href="./assets/css/styles.css" onload="this.rel='stylesheet'">
+
     <!-- Preload Image for LCP -->
     <link rel="preload" as="image" href="assets/images/hero-image.webp" type="image/webp" fetch-priority="high">
+
+    <!-- Preload Google Fonts -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Oooh+Baby:wght@400&family=Poiret+One:wght@400;700&display=swap" onload="this.rel='stylesheet'">
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 </head>
 

@@ -32,6 +32,7 @@ body {
     font-family: var(--secondary-font);
     padding-top: 67.5px;
     /* Adjusted for fixed navbar height */
+    background: var(--white);
 }
 
 /* Headings */
@@ -895,6 +896,13 @@ h3 {
 /* ============================================
    MEDIA QUERIES & RESPONSIVE DESIGN
 ============================================== */
+
+/* Body gradient for screens >= 768px */
+@media (min-width: 768px) {
+    body {
+        background: linear-gradient(135deg, #c266a7 0%, #e7c8e7 40%, #fff 60%, #e7c8e7 80%, #c266a7 100%);
+    }
+}
 
 /* Small screens - Mobile devices (up to 767px) */
 @media (max-width: 767.98px) {
