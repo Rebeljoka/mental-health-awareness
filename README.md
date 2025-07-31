@@ -120,7 +120,15 @@ Quiet Bloom is a modern, accessible single-page web application dedicated to pro
 **User Stories**
 ![User Stories](Documentation/Research,%20Credit%20and%20Sources/user-stories.png)
 
+<div align="center">
 
+|  | Mobile First UX | First-Time Visitor | Curious Learner | Stressed Individual | Caring Individual | Privacy-Conscious Visitor | Reassured Visitor |
+|:---------|:------------------|:-------------------|:------------------|:---------------------|:--------------------|:--------------------------|:--------------------|
+| **User Story** | AS A mobile user, I WANT TO browse easily on my phone, SO THAT I CAN access support anytime, anywhere. | AS A first-time visitor, I WANT TO feel welcome and reassured by the site’s calm design, SO THAT I CAN explore sensitive topics safely. | AS A curious learner, I WANT TO access simple explanations of common mental health challenges, SO THAT I CAN understand symptoms without being overwhelmed. | AS A stressed individual, I WANT TO read calming advice and practical stress relief tips, SO THAT I CAN manage my emotions with confidence. | AS A caring individual, I WANT TO learn supportive ways to help someone feeling stressed or low, SO THAT I CAN offer kind and effective encouragement. | AS A privacy-conscious visitor, I WANT TO explore mental health resources without judgment or data tracking, SO THAT I CAN feel safe and supported. | As a cautious visitor, I want to see clear, professional design and trust signals, so I feel safe browsing and engaging with the site. |
+| **Features** | ✅ Mobile-first layout (Bootstrap grid)<br>✅ Collapsible navbar<br>✅ Large touch targets<br>✅ Tested across Chrome/Firefox | ✅ Calming hero section<br>✅ Welcoming tagline/subheading<br>✅ Gentle fade-in animation<br>✅ Supportive navbar with icons | ✅ Accordion for key topics<br>✅ Friendly icons<br>✅ Accessible font sizes<br>✅ Anchor links | ✅ “Quick Tips for Stress” cards<br>✅ Calming thumbnails<br>✅ Optional checklists<br>✅ External resource links | ✅ Supportive section with panels<br>✅ Gentle bullet-point tips<br>✅ Panels for Listen/Say/Avoid | ✅ Soft confidential language | ✅ Link to Terms/Legal<br>✅ Human touch text<br>✅ Language toggle/region selector |
+| **Acceptance Criteria** | ✅ Content stacks <576px<br>✅ Navbar toggles smoothly<br>✅ Elements finger-friendly<br>✅ No horizontal scroll | ✅ Hero section looks welcoming<br>✅ Pastel color palette<br>✅ Navigation is clear + accessible<br>✅ Transitions are smooth | ✅ Accordion opens 3+ topics in 2 clicks<br>✅ WCAG AA fonts/contrast<br>✅ Headings + <150 word paragraphs | ✅ Vertical stacking on mobile<br>✅ Each card includes heading + image<br>✅ Checklist toggles visually<br>✅ External links open in tabs with labels | ✅ Mobile + desktop support<br>✅ 3+ plain text tips per panel<br>✅ Supportive non-diagnostic tone | ✅ Navigation/resources don’t depend on identity/session | ✅ Footer with privacy, contact, social links<br>✅ Professional layout<br>✅ Clean visuals + subtle animations<br>✅ Optimized for mobile and desktop |
+
+</div>
 
 1. **Clone the repository:**
 
