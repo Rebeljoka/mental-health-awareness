@@ -120,7 +120,6 @@ Quiet Bloom is a modern, accessible single-page web application dedicated to pro
 **User Stories**
 ![User Stories](Documentation/Research,%20Credit%20and%20Sources/user-stories.png)
 
-
 <div align="center">
 <table style="font-size:10px; text-align:center; width:100%; border:2px solid #fff; border-collapse:collapse; border-radius:25%;">
   <tr>
