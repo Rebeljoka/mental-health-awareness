@@ -120,7 +120,7 @@ Quiet Bloom is a modern, accessible single-page web application dedicated to pro
 **User Stories**
 ![User Stories](Documentation/Research,%20Credit%20and%20Sources/user-stories.png)
 
-<div align="center">
+<div align="center" style="font-size: 12px;">
 
 |  | Mobile First UX | First-Time Visitor | Curious Learner | Stressed Individual | Caring Individual | Privacy-Conscious Visitor | Reassured Visitor |
 |:---------|:------------------|:-------------------|:------------------|:---------------------|:--------------------|:--------------------------|:--------------------|
